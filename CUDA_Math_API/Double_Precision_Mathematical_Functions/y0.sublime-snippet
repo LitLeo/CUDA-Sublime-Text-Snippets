@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+y0(${1:double  x})
+/*${2:Calculate the value of the Bessel function of the second kind of order 0 for the input argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>y0</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

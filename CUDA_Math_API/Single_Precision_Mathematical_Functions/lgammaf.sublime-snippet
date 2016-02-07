@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+lgammaf(${1:float  x})
+/*${2:Calculate the natural logarithm of the absolute value of the gamma function of the input argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>lgammaf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

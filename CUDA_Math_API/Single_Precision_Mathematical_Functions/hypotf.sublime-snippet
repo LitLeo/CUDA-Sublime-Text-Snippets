@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+hypotf(${1:float  x}, ${2:float  y})
+/*${3:Calculate the square root of the sum of squares of two arguments.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>hypotf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

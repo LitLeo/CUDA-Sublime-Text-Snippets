@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__rhadd(${1:int }, ${2:int})
+/*${3:Compute rounded average of signed input arguments, avoiding overflow in the intermediate sum.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__rhadd</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

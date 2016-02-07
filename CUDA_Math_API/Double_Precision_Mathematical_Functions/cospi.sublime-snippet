@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+cospi(${1:double  x})
+/*${2:Calculate the cosine of the input argument × π .}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>cospi</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

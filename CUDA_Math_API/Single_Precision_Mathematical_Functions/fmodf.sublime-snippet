@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+fmodf(${1:float  x}, ${2:float  y})
+/*${3:Calculate the floating-point remainder of x / y.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>fmodf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

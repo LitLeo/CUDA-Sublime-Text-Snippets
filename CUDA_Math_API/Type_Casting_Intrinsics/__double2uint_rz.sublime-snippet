@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__double2uint_rz(${1:double})
+/*${2:Convert a double to an unsigned int in round-towards-zero mode.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__double2uint_rz</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

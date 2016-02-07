@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+modf(${1:double  x}, ${2:double* iptr})
+/*${3:Break down the input argument into fractional and integral parts.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>modf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

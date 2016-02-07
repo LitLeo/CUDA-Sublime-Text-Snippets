@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+ldexpf(${1:float  x}, ${2:int  exp})
+/*${3:Calculate the value of x ⋅ 2 e x p .}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>ldexpf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+rnorm3df(${1:float  a}, ${2:float  b}, ${3:float  c})
+/*${4:Calculate one over the square root of the sum of squares of three coordinates of the argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>rnorm3df</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

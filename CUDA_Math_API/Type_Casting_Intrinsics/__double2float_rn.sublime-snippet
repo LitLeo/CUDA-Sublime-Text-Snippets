@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__double2float_rn(${1:double  x})
+/*${2:Convert a double to a float in round-to-nearest-even mode.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__double2float_rn</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

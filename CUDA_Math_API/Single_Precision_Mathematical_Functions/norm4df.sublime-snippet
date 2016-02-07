@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+norm4df(${1:float  a}, ${2:float  b}, ${3:float  c}, ${4:float  d})
+/*${5:Calculate the square root of the sum of squares of four coordinates of the argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>norm4df</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

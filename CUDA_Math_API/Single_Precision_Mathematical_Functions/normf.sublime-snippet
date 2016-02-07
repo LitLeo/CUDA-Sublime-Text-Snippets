@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+normf(${1:int  dim}, ${2:const float* a})
+/*${3:Calculate the square root of the sum of squares of any number of coordinates.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>normf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

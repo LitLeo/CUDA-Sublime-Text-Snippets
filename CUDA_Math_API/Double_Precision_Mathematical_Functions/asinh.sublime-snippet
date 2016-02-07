@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+asinh(${1:double  x})
+/*${2:Calculate the arc hyperbolic sine of the input argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>asinh</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

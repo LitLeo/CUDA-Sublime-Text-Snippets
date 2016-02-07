@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__int_as_float(${1:int  x})
+/*${2:Reinterpret bits in an integer as a float.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__int_as_float</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

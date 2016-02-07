@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+fdim(${1:double  x}, ${2:double  y})
+/*${3:Compute the positive difference between x and y.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>fdim</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

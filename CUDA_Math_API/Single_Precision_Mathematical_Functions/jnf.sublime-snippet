@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+jnf(${1:int  n}, ${2:float  x})
+/*${3:Calculate the value of the Bessel function of the first kind of order n for the input argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>jnf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

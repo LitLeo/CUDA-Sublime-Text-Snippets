@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+erfinvf(${1:float  y})
+/*${2:Calculate the inverse error function of the input argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>erfinvf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

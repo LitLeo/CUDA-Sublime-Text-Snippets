@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__uint_as_float(${1:unsigned int  x})
+/*${2:Reinterpret bits in an unsigned integer as a float.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__uint_as_float</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

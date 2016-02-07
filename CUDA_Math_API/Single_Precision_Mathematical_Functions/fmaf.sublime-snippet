@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+fmaf(${1:float  x}, ${2:float  y}, ${3:float  z})
+/*${4:Compute x × y + z as a single operation.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>fmaf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

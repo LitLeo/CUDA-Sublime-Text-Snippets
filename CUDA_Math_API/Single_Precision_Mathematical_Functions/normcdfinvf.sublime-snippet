@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+normcdfinvf(${1:float  y})
+/*${2:Calculate the inverse of the standard normal cumulative distribution function.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>normcdfinvf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

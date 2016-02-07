@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+roundf(${1:float  x})
+/*${2:Round to nearest integer value in floating-point.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>roundf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

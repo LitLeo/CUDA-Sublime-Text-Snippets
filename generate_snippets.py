@@ -14,6 +14,15 @@ import re
 # Thread_Management
 # Unified_Addressing
 
+# Double_Precision_Intrinsics
+# Double_Precision_Mathematical_Functions
+# Half Arithmetic Functions
+# Integer_Intrinsics
+# SIMD_Intrinsics
+# Single_Precision_Intrinsics
+# Single_Precision_Mathematical_Functions
+# Type_Casting_Intrinsics
+
 dirs=[
 'CUDA_Runtime_API/Device_Management/',
 'CUDA_Runtime_API/Error_Handling/',
@@ -23,7 +32,15 @@ dirs=[
 'CUDA_Runtime_API/Occupancy/',
 'CUDA_Runtime_API/Peer_Device_Memory_Access/',
 'CUDA_Runtime_API/Stream_Management/',
-'CUDA_Runtime_API/Unified_Addressing/'
+'CUDA_Runtime_API/Unified_Addressing/',
+
+'CUDA_Math_API/Double_Precision_Intrinsics/',
+'CUDA_Math_API/Double_Precision_Mathematical_Functions/',
+'CUDA_Math_API/Integer_Intrinsics/',
+'CUDA_Math_API/SIMD_Intrinsics/',
+'CUDA_Math_API/Single_Precision_Mathematical_Functions/',
+'CUDA_Math_API/Type_Casting_Intrinsics/',
+'CUDA_Math_API/Single_Precision_Intrinsics/'
 ]
 
 filename='func'
@@ -40,9 +57,9 @@ for dir in dirs:
 
 	alllines = file_buffer.readlines()
 	for ln in xrange(0,len(alllines)):
-		if alllines[ln].find('__host__') != -1:
+		if re.search('(__.*__) .*', alllines[ln]):
 			# print alllines[ln]
-			reResult = re.search('(__.*__) (.*_t) (.*) \( (.*) \)', alllines[ln], re.U)
+			reResult = re.search('(__.*__) (.*) (.*) \( (.*) \)', alllines[ln], re.U)
 			if reResult:
 				Zuoyongyu = reResult.group(1)
 				Return = reResult.group(2)
@@ -52,6 +69,7 @@ for dir in dirs:
 				NewParams = ''
 				Params_split = Params.split(', ')
 				# print len(Params_split)
+				
 				# cudaChooseDevice(${1:int* device}, ${2:const cudaDeviceProp* prop})
 				for x in xrange(0,len(Params_split)):
 					Params_split[x].strip()

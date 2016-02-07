@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__hiloint2double(${1:int  hi}, ${2:int  lo})
+/*${3:Reinterpret high and low 32-bit integer values as a double.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__hiloint2double</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

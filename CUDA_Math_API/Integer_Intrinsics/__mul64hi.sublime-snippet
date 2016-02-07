@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__mul64hi(${1:long long int x}, ${2:long long int y})
+/*${3:Calculate the most significant 64 bits of the product of the two 64 bit integers.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__mul64hi</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

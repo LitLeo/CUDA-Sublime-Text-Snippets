@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+log10f(${1:float  x})
+/*${2:Calculate the base 10 logarithm of the input argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>log10f</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

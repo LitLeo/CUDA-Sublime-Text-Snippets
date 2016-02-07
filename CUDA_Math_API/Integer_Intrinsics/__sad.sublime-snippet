@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__sad(${1:int  x}, ${2:int  y}, ${3:unsigned int  z})
+/*${4:Calculate | x − y | + z , the sum of absolute difference.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__sad</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+rhypot(${1:double  x}, ${2:double  y})
+/*${3:Calculate one over the square root of the sum of squares of two arguments.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>rhypot</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

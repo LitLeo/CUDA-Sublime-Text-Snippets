@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+sincos(${1:double  x}, ${2:double* sptr}, ${3:double* cptr})
+/*${4:Calculate the sine and cosine of the first input argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>sincos</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

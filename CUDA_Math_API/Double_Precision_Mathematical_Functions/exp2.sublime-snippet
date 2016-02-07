@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+exp2(${1:double  x})
+/*${2:Calculate the base 2 exponential of the input argument.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>exp2</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

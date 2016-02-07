@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+remquo(${1:double  x}, ${2:double  y}, ${3:int* quo})
+/*${4:Compute double-precision floating-point remainder and part of quotient.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>remquo</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

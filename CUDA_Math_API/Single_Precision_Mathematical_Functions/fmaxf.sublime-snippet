@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+fmaxf(${1:float  x}, ${2:float  y})
+/*${3:Determine the maximum numeric value of the arguments.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>fmaxf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__longlong_as_double(${1:long long int x})
+/*${2:Reinterpret bits in a 64-bit signed integer as a double.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__longlong_as_double</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

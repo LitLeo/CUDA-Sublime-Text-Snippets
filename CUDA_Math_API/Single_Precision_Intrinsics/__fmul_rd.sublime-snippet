@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+__fmul_rd(${1:float  x}, ${2:float  y})
+/*${3:Multiply two floating point values in round-down mode.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>__fmul_rd</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>
