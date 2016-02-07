@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaSetDevice(${0:int  device})
+cudaSetDevice(${1:int  device})
+/*${2:Set device to be used for GPU executions.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaSetDevice</tabTrigger> 

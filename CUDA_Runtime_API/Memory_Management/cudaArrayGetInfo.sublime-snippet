@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaArrayGetInfo(${0:cudaChannelFormatDesc* desc}, ${1:cudaExtent* extent}, ${2:unsigned int* flags}, ${3:cudaArray_t array})
+cudaArrayGetInfo(${1:cudaChannelFormatDesc* desc}, ${2:cudaExtent* extent}, ${3:unsigned int* flags}, ${4:cudaArray_t array})
+/*${5:Gets info about the specified cudaArray.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaArrayGetInfo</tabTrigger> 

@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetDeviceCount(${0:int* count})
+cudaGetDeviceCount(${1:int* count})
+/*${2:Returns the number of compute-capable devices.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetDeviceCount</tabTrigger> 

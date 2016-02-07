@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpy3DAsync(${0:const cudaMemcpy3DParms* p}, ${1:cudaStream_t stream = 0})
+cudaMemcpy3DAsync(${1:const cudaMemcpy3DParms* p}, ${2:cudaStream_t stream = 0})
+/*${3:Copies data between 3D objects.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpy3DAsync</tabTrigger> 

@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamAttachMemAsync(${0:cudaStream_t stream}, ${1:void* devPtr}, ${2:size_t length}, ${3:unsigned int  flags})
+cudaStreamAttachMemAsync(${1:cudaStream_t stream}, ${2:void* devPtr}, ${3:size_t length}, ${4:unsigned int  flags})
+/*${5:Attach memory to a stream asynchronously.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamAttachMemAsync</tabTrigger> 

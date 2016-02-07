@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaEventElapsedTime(${0:float* ms}, ${1:cudaEvent_t start}, ${2:cudaEvent_t end})
+cudaEventElapsedTime(${1:float* ms}, ${2:cudaEvent_t start}, ${3:cudaEvent_t end})
+/*${4:Computes the elapsed time between events.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaEventElapsedTime</tabTrigger> 

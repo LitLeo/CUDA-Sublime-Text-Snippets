@@ -1,0 +1,60 @@
+__device__ ​ double __dadd_rd ( double  x, double  y )
+Add two floating point values in round-down mode.
+__device__ ​ double __dadd_rn ( double  x, double  y )
+Add two floating point values in round-to-nearest-even mode.
+__device__ ​ double __dadd_ru ( double  x, double  y )
+Add two floating point values in round-up mode.
+__device__ ​ double __dadd_rz ( double  x, double  y )
+Add two floating point values in round-towards-zero mode.
+__device__ ​ double __ddiv_rd ( double  x, double  y )
+Divide two floating point values in round-down mode.
+__device__ ​ double __ddiv_rn ( double  x, double  y )
+Divide two floating point values in round-to-nearest-even mode.
+__device__ ​ double __ddiv_ru ( double  x, double  y )
+Divide two floating point values in round-up mode.
+__device__ ​ double __ddiv_rz ( double  x, double  y )
+Divide two floating point values in round-towards-zero mode.
+__device__ ​ double __dmul_rd ( double  x, double  y )
+Multiply two floating point values in round-down mode.
+__device__ ​ double __dmul_rn ( double  x, double  y )
+Multiply two floating point values in round-to-nearest-even mode.
+__device__ ​ double __dmul_ru ( double  x, double  y )
+Multiply two floating point values in round-up mode.
+__device__ ​ double __dmul_rz ( double  x, double  y )
+Multiply two floating point values in round-towards-zero mode.
+__device__ ​ double __drcp_rd ( double  x )
+Compute 1 x in round-down mode.
+__device__ ​ double __drcp_rn ( double  x )
+Compute 1 x in round-to-nearest-even mode.
+__device__ ​ double __drcp_ru ( double  x )
+Compute 1 x in round-up mode.
+__device__ ​ double __drcp_rz ( double  x )
+Compute 1 x in round-towards-zero mode.
+__device__ ​ double __dsqrt_rd ( double  x )
+Compute x in round-down mode.
+__device__ ​ double __dsqrt_rn ( double  x )
+Compute x in round-to-nearest-even mode.
+__device__ ​ double __dsqrt_ru ( double  x )
+Compute x in round-up mode.
+__device__ ​ double __dsqrt_rz ( double  x )
+Compute x in round-towards-zero mode.
+__device__ ​ double __dsub_rd ( double  x, double  y )
+Subtract two floating point values in round-down mode.
+__device__ ​ double __dsub_rn ( double  x, double  y )
+Subtract two floating point values in round-to-nearest-even mode.
+__device__ ​ double __dsub_ru ( double  x, double  y )
+Subtract two floating point values in round-up mode.
+__device__ ​ double __dsub_rz ( double  x, double  y )
+Subtract two floating point values in round-towards-zero mode.
+__device__ ​ double __fma_rd ( double  x, double  y, double  z )
+Compute x × y + z as a single operation in round-down mode.
+__device__ ​ double __fma_rn ( double  x, double  y, double  z )
+Compute x × y + z as a single operation in round-to-nearest-even mode.
+__device__ ​ double __fma_ru ( double  x, double  y, double  z )
+Compute x × y + z as a single operation in round-up mode.
+__device__ ​ double __fma_rz ( double  x, double  y, double  z )
+Compute x × y + z as a single operation in round-towards-zero mode.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-math-api/index.html#ixzz3zSuYIdaH 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

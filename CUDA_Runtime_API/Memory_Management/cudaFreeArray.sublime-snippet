@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaFreeArray(${0:cudaArray_t array})
+cudaFreeArray(${1:cudaArray_t array})
+/*${2:Frees an array on the device.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaFreeArray</tabTrigger> 

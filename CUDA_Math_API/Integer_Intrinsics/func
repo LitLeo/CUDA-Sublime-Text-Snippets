@@ -1,0 +1,46 @@
+__DEVICE_FUNCTIONS_DECL__ unsigned int __brev ( unsigned int  x )
+Reverse the bit order of a 32 bit unsigned integer.
+__DEVICE_FUNCTIONS_DECL__ unsigned long long int __brevll ( unsigned long long int x )
+Reverse the bit order of a 64 bit unsigned integer.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __byte_perm ( unsigned int  x, unsigned int  y, unsigned int  s )
+Return selected bytes from two 32 bit unsigned integers.
+__DEVICE_FUNCTIONS_DECL__ int __clz ( int  x )
+Return the number of consecutive high-order zero bits in a 32 bit integer.
+__DEVICE_FUNCTIONS_DECL__ int __clzll ( long long int x )
+Count the number of consecutive high-order zero bits in a 64 bit integer.
+__DEVICE_FUNCTIONS_DECL__ int __ffs ( int  x )
+Find the position of the least significant bit set to 1 in a 32 bit integer.
+__DEVICE_FUNCTIONS_DECL__ int __ffsll ( long long int x )
+Find the position of the least significant bit set to 1 in a 64 bit integer.
+__DEVICE_FUNCTIONS_DECL__ int __hadd ( int , int )
+Compute average of signed input arguments, avoiding overflow in the intermediate sum.
+__DEVICE_FUNCTIONS_DECL__ int __mul24 ( int  x, int  y )
+Calculate the least significant 32 bits of the product of the least significant 24 bits of two integers.
+__DEVICE_FUNCTIONS_DECL__ long long int __mul64hi ( long long int x, long long int y )
+Calculate the most significant 64 bits of the product of the two 64 bit integers.
+__DEVICE_FUNCTIONS_DECL__ int __mulhi ( int  x, int  y )
+Calculate the most significant 32 bits of the product of the two 32 bit integers.
+__DEVICE_FUNCTIONS_DECL__ int __popc ( unsigned int  x )
+Count the number of bits that are set to 1 in a 32 bit integer.
+__DEVICE_FUNCTIONS_DECL__ int __popcll ( unsigned long long int x )
+Count the number of bits that are set to 1 in a 64 bit integer.
+__DEVICE_FUNCTIONS_DECL__ int __rhadd ( int , int )
+Compute rounded average of signed input arguments, avoiding overflow in the intermediate sum.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __sad ( int  x, int  y, unsigned int  z )
+Calculate | x − y | + z , the sum of absolute difference.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __uhadd ( unsigned int, unsigned int )
+Compute average of unsigned input arguments, avoiding overflow in the intermediate sum.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __umul24 ( unsigned int  x, unsigned int  y )
+Calculate the least significant 32 bits of the product of the least significant 24 bits of two unsigned integers.
+__DEVICE_FUNCTIONS_DECL__ unsigned long long int __umul64hi ( unsigned long long int x, unsigned long long int y )
+Calculate the most significant 64 bits of the product of the two 64 unsigned bit integers.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __umulhi ( unsigned int  x, unsigned int  y )
+Calculate the most significant 32 bits of the product of the two 32 bit unsigned integers.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __urhadd ( unsigned int, unsigned int )
+Compute rounded average of unsigned input arguments, avoiding overflow in the intermediate sum.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __usad ( unsigned int  x, unsigned int  y, unsigned int  z )
+Calculate | x − y | + z , the sum of absolute difference.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-math-api/index.html#ixzz3zSujN5Sy 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

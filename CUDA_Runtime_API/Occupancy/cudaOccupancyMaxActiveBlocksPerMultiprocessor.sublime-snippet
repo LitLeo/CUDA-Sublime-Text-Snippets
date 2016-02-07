@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaOccupancyMaxActiveBlocksPerMultiprocessor(${0:int* numBlocks}, ${1:const void* func}, ${2:int  blockSize}, ${3:size_t dynamicSMemSize})
+cudaOccupancyMaxActiveBlocksPerMultiprocessor(${1:int* numBlocks}, ${2:const void* func}, ${3:int  blockSize}, ${4:size_t dynamicSMemSize})
+/*${5:Returns occupancy for a device function.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaOccupancyMaxActiveBlocksPerMultiprocessor</tabTrigger> 

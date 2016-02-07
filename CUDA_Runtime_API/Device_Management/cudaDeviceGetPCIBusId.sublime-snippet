@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceGetPCIBusId(${0:char* pciBusId}, ${1:int  len}, ${2:int  device})
+cudaDeviceGetPCIBusId(${1:char* pciBusId}, ${2:int  len}, ${3:int  device})
+/*${4:Returns a PCI Bus Id string for the device.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceGetPCIBusId</tabTrigger> 

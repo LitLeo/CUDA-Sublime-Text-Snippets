@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaFreeHost(${0:void* ptr})
+cudaFreeHost(${1:void* ptr})
+/*${2:Frees page-locked memory.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaFreeHost</tabTrigger> 

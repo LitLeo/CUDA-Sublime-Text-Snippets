@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaEventQuery(${0:cudaEvent_t event})
+cudaEventQuery(${1:cudaEvent_t event})
+/*${2:Queries an event's status.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaEventQuery</tabTrigger> 

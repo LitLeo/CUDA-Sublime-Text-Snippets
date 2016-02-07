@@ -1,0 +1,54 @@
+__CUDA_FP16_DECL__ bool __hbeq2 ( const __half2 a, const __half2 b )
+Performs half2 vector if-equal comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbequ2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered if-equal comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbge2 ( const __half2 a, const __half2 b )
+Performs half2 vector greater-equal comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbgeu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered greater-equal comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbgt2 ( const __half2 a, const __half2 b )
+Performs half2 vector greater-than comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbgtu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered greater-than comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hble2 ( const __half2 a, const __half2 b )
+Performs half2 vector less-equal comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbleu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered less-equal comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hblt2 ( const __half2 a, const __half2 b )
+Performs half2 vector less-than comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbltu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered less-than comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbne2 ( const __half2 a, const __half2 b )
+Performs half2 vector not-equal comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ bool __hbneu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered not-equal comparison, and returns boolean true iff both half results are true, boolean false otherwise.
+__CUDA_FP16_DECL__ __half2 __heq2 ( const __half2 a, const __half2 b )
+Performs half2 vector if-equal comparison.
+__CUDA_FP16_DECL__ __half2 __hequ2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered if-equal comparison.
+__CUDA_FP16_DECL__ __half2 __hge2 ( const __half2 a, const __half2 b )
+Performs half2 vector greater-equal comparison.
+__CUDA_FP16_DECL__ __half2 __hgeu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered greater-equal comparison.
+__CUDA_FP16_DECL__ __half2 __hgt2 ( const __half2 a, const __half2 b )
+Performs half2 vector greater-than comparison.
+__CUDA_FP16_DECL__ __half2 __hgtu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered greater-than comparison.
+__CUDA_FP16_DECL__ __half2 __hisnan2 ( const __half2 a )
+Determine whether half2 argument is a NaN.
+__CUDA_FP16_DECL__ __half2 __hle2 ( const __half2 a, const __half2 b )
+Performs half2 vector less-equal comparison.
+__CUDA_FP16_DECL__ __half2 __hleu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered less-equal comparison.
+__CUDA_FP16_DECL__ __half2 __hlt2 ( const __half2 a, const __half2 b )
+Performs half2 vector less-than comparison.
+__CUDA_FP16_DECL__ __half2 __hltu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered less-than comparison.
+__CUDA_FP16_DECL__ __half2 __hne2 ( const __half2 a, const __half2 b )
+Performs half2 vector not-equal comparison.
+__CUDA_FP16_DECL__ __half2 __hneu2 ( const __half2 a, const __half2 b )
+Performs half2 vector unordered not-equal comparison.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-math-api/index.html#ixzz3zSvs2uCQ 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetDeviceProperties(${0:cudaDeviceProp* prop}, ${1:int  device})
+cudaGetDeviceProperties(${1:cudaDeviceProp* prop}, ${2:int  device})
+/*${3:Returns information about the compute-device.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetDeviceProperties</tabTrigger> 

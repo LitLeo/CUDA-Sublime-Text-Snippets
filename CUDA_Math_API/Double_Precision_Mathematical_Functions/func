@@ -1,0 +1,178 @@
+__host__ ​ __device__ ​ double acos ( double  x )
+Calculate the arc cosine of the input argument.
+__host__ ​ __device__ ​ double acosh ( double  x )
+Calculate the nonnegative arc hyperbolic cosine of the input argument.
+__host__ ​ __device__ ​ double asin ( double  x )
+Calculate the arc sine of the input argument.
+__host__ ​ __device__ ​ double asinh ( double  x )
+Calculate the arc hyperbolic sine of the input argument.
+__host__ ​ __device__ ​ double atan ( double  x )
+Calculate the arc tangent of the input argument.
+__host__ ​ __device__ ​ double atan2 ( double  y, double  x )
+Calculate the arc tangent of the ratio of first and second input arguments.
+__host__ ​ __device__ ​ double atanh ( double  x )
+Calculate the arc hyperbolic tangent of the input argument.
+__host__ ​ __device__ ​ double cbrt ( double  x )
+Calculate the cube root of the input argument.
+__host__ ​ __device__ ​ double ceil ( double  x )
+Calculate ceiling of the input argument.
+__host__ ​ __device__ ​ double copysign ( double  x, double  y )
+Create value with given magnitude, copying sign of second value.
+__host__ ​ __device__ ​ double cos ( double  x )
+Calculate the cosine of the input argument.
+__host__ ​ __device__ ​ double cosh ( double  x )
+Calculate the hyperbolic cosine of the input argument.
+__host__ ​ __device__ ​ double cospi ( double  x )
+Calculate the cosine of the input argument × π .
+__host__ ​ __device__ ​ double cyl_bessel_i0 ( double  x )
+Calculate the value of the regular modified cylindrical Bessel function of order 0 for the input argument.
+__host__ ​ __device__ ​ double cyl_bessel_i1 ( double  x )
+Calculate the value of the regular modified cylindrical Bessel function of order 1 for the input argument.
+__host__ ​ __device__ ​ double erf ( double  x )
+Calculate the error function of the input argument.
+__host__ ​ __device__ ​ double erfc ( double  x )
+Calculate the complementary error function of the input argument.
+__host__ ​ __device__ ​ double erfcinv ( double  y )
+Calculate the inverse complementary error function of the input argument.
+__host__ ​ __device__ ​ double erfcx ( double  x )
+Calculate the scaled complementary error function of the input argument.
+__host__ ​ __device__ ​ double erfinv ( double  y )
+Calculate the inverse error function of the input argument.
+__host__ ​ __device__ ​ double exp ( double  x )
+Calculate the base e exponential of the input argument.
+__host__ ​ __device__ ​ double exp10 ( double  x )
+Calculate the base 10 exponential of the input argument.
+__host__ ​ __device__ ​ double exp2 ( double  x )
+Calculate the base 2 exponential of the input argument.
+__host__ ​ __device__ ​ double expm1 ( double  x )
+Calculate the base e exponential of the input argument, minus 1.
+__host__ ​ __device__ ​ double fabs ( double  x )
+Calculate the absolute value of the input argument.
+__host__ ​ __device__ ​ double fdim ( double  x, double  y )
+Compute the positive difference between x and y.
+__host__ ​ __device__ ​ double floor ( double  x )
+Calculate the largest integer less than or equal to x.
+__host__ ​ __device__ ​ double fma ( double  x, double  y, double  z )
+Compute x × y + z as a single operation.
+__host__ ​ __device__ ​ double fmax ( double , double )
+Determine the maximum numeric value of the arguments.
+__host__ ​ __device__ ​ double fmin ( double  x, double  y )
+Determine the minimum numeric value of the arguments.
+__host__ ​ __device__ ​ double fmod ( double  x, double  y )
+Calculate the floating-point remainder of x / y.
+__host__ ​ __device__ ​ double frexp ( double  x, int* nptr )
+Extract mantissa and exponent of a floating-point value.
+__host__ ​ __device__ ​ double __CRTDECL hypot ( double  x, double  y )
+Calculate the square root of the sum of squares of two arguments.
+__host__ ​ __device__ ​ int ilogb ( double  x )
+Compute the unbiased integer exponent of the argument.
+__host__ ​ __device__ ​ __RETURN_TYPE isfinite ( double  a )
+Determine whether argument is finite.
+__host__ ​ __device__ ​ __RETURN_TYPE isinf ( double  a )
+Determine whether argument is infinite.
+__host__ ​ __device__ ​ __RETURN_TYPE isnan ( double  a )
+Determine whether argument is a NaN.
+__host__ ​ __device__ ​ double j0 ( double  x )
+Calculate the value of the Bessel function of the first kind of order 0 for the input argument.
+__host__ ​ __device__ ​ double j1 ( double  x )
+Calculate the value of the Bessel function of the first kind of order 1 for the input argument.
+__host__ ​ __device__ ​ double jn ( int  n, double  x )
+Calculate the value of the Bessel function of the first kind of order n for the input argument.
+__host__ ​ __device__ ​ double ldexp ( double  x, int  exp )
+Calculate the value of x ⋅ 2 e x p .
+__host__ ​ __device__ ​ double lgamma ( double  x )
+Calculate the natural logarithm of the absolute value of the gamma function of the input argument.
+__host__ ​ __device__ ​ long long int llrint ( double  x )
+Round input to nearest integer value.
+__host__ ​ __device__ ​ long long int llround ( double  x )
+Round to nearest integer value.
+__host__ ​ __device__ ​ double log ( double  x )
+Calculate the base e logarithm of the input argument.
+__host__ ​ __device__ ​ double log10 ( double  x )
+Calculate the base 10 logarithm of the input argument.
+__host__ ​ __device__ ​ double log1p ( double  x )
+Calculate the value of l o g e ( 1 + x ) .
+__host__ ​ __device__ ​ double log2 ( double  x )
+Calculate the base 2 logarithm of the input argument.
+__host__ ​ __device__ ​ double logb ( double  x )
+Calculate the floating point representation of the exponent of the input argument.
+__host__ ​ __device__ ​ long int lrint ( double  x )
+Round input to nearest integer value.
+__host__ ​ __device__ ​ long int lround ( double  x )
+Round to nearest integer value.
+__host__ ​ __device__ ​ double modf ( double  x, double* iptr )
+Break down the input argument into fractional and integral parts.
+__host__ ​ __device__ ​ double nan ( const char* tagp )
+Returns "Not a Number" value.
+__host__ ​ __device__ ​ double nearbyint ( double  x )
+Round the input argument to the nearest integer.
+__host__ ​ __device__ ​ double nextafter ( double  x, double  y )
+Return next representable double-precision floating-point value after argument.
+__host__ ​ __device__ ​ double norm ( int  dim, const double* t )
+Calculate the square root of the sum of squares of any number of coordinates.
+__host__ ​ __device__ ​ double norm3d ( double  a, double  b, double  c )
+Calculate the square root of the sum of squares of three coordinates of the argument.
+__host__ ​ __device__ ​ double norm4d ( double  a, double  b, double  c, double  d )
+Calculate the square root of the sum of squares of four coordinates of the argument.
+__host__ ​ __device__ ​ double normcdf ( double  y )
+Calculate the standard normal cumulative distribution function.
+__host__ ​ __device__ ​ double normcdfinv ( double  y )
+Calculate the inverse of the standard normal cumulative distribution function.
+__host__ ​ __device__ ​ double pow ( double  x, double  y )
+Calculate the value of first argument to the power of second argument.
+__host__ ​ __device__ ​ double rcbrt ( double  x )
+Calculate reciprocal cube root function.
+__host__ ​ __device__ ​ double remainder ( double  x, double  y )
+Compute double-precision floating-point remainder.
+__host__ ​ __device__ ​ double remquo ( double  x, double  y, int* quo )
+Compute double-precision floating-point remainder and part of quotient.
+__host__ ​ __device__ ​ double rhypot ( double  x, double  y )
+Calculate one over the square root of the sum of squares of two arguments.
+__host__ ​ __device__ ​ double rint ( double  x )
+Round to nearest integer value in floating-point.
+__host__ ​ __device__ ​ double rnorm ( int  dim, const double* t )
+Calculate the reciprocal of square root of the sum of squares of any number of coordinates.
+__host__ ​ __device__ ​ double rnorm3d ( double  a, double  b, double  c )
+Calculate one over the square root of the sum of squares of three coordinates of the argument.
+__host__ ​ __device__ ​ double rnorm4d ( double  a, double  b, double  c, double  d )
+Calculate one over the square root of the sum of squares of four coordinates of the argument.
+__host__ ​ __device__ ​ double round ( double  x )
+Round to nearest integer value in floating-point.
+__host__ ​ __device__ ​ double rsqrt ( double  x )
+Calculate the reciprocal of the square root of the input argument.
+__host__ ​ __device__ ​ double scalbln ( double  x, long int  n )
+Scale floating-point input by integer power of two.
+__host__ ​ __device__ ​ double scalbn ( double  x, int  n )
+Scale floating-point input by integer power of two.
+__host__ ​ __device__ ​ __RETURN_TYPE signbit ( double  a )
+Return the sign bit of the input.
+__host__ ​ __device__ ​ double sin ( double  x )
+Calculate the sine of the input argument.
+__host__ ​ __device__ ​ void sincos ( double  x, double* sptr, double* cptr )
+Calculate the sine and cosine of the first input argument.
+__host__ ​ __device__ ​ void sincospi ( double  x, double* sptr, double* cptr )
+Calculate the sine and cosine of the first input argument × π .
+__host__ ​ __device__ ​ double sinh ( double  x )
+Calculate the hyperbolic sine of the input argument.
+__host__ ​ __device__ ​ double sinpi ( double  x )
+Calculate the sine of the input argument × π .
+__host__ ​ __device__ ​ double sqrt ( double  x )
+Calculate the square root of the input argument.
+__host__ ​ __device__ ​ double tan ( double  x )
+Calculate the tangent of the input argument.
+__host__ ​ __device__ ​ double tanh ( double  x )
+Calculate the hyperbolic tangent of the input argument.
+__host__ ​ __device__ ​ double tgamma ( double  x )
+Calculate the gamma function of the input argument.
+__host__ ​ __device__ ​ double trunc ( double  x )
+Truncate input argument to the integral part.
+__host__ ​ __device__ ​ double y0 ( double  x )
+Calculate the value of the Bessel function of the second kind of order 0 for the input argument.
+__host__ ​ __device__ ​ double y1 ( double  x )
+Calculate the value of the Bessel function of the second kind of order 1 for the input argument.
+__host__ ​ __device__ ​ double yn ( int  n, double  x )
+Calculate the value of the Bessel function of the second kind of order n for the input argument.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-math-api/index.html#ixzz3zSu2JKDJ 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

@@ -1,0 +1,38 @@
+__CUDA_FP16_DECL__ __half2 __float22half2_rn ( const float2 a )
+Converts both components of float2 number to half precision in round-to-nearest mode and returns half2 with converted values.
+__CUDA_FP16_DECL__ __half __float2half ( const float  a )
+Converts float number to half precision in round-to-nearest mode and returns half with converted value.
+__CUDA_FP16_DECL__ __half2 __float2half2_rn ( const float  a )
+Converts input to half precision in round-to-nearest mode and populates both halves of half2 with converted value.
+__CUDA_FP16_DECL__ __half2 __floats2half2_rn ( const float  a, const float  b )
+Converts both input floats to half precision in round-to-nearest mode and returns half2 with converted values.
+__CUDA_FP16_DECL__ float2 __half22float2 ( const __half2 a )
+Converts both halves of half2 to float2 and returns the result.
+__CUDA_FP16_DECL__ float __half2float ( const __half a )
+Converts half number to float.
+__CUDA_FP16_DECL__ __half2 __half2half2 ( const __half a )
+Returns half2 with both halves equal to the input value.
+__CUDA_FP16_DECL__ __half2 __halves2half2 ( const __half a, const __half b )
+Combines two half numbers into one half2 number.
+__CUDA_FP16_DECL__ float __high2float ( const __half2 a )
+Converts high 16 bits of half2 to float and returns the result.
+__CUDA_FP16_DECL__ __half __high2half ( const __half2 a )
+Returns high 16 bits of half2 input.
+__CUDA_FP16_DECL__ __half2 __high2half2 ( const __half2 a )
+Extracts high 16 bits from half2 input.
+__CUDA_FP16_DECL__ __half2 __highs2half2 ( const __half2 a, const __half2 b )
+Extracts high 16 bits from each of the two half2 inputs and combines into one half2 number.
+__CUDA_FP16_DECL__ float __low2float ( const __half2 a )
+Converts low 16 bits of half2 to float and returns the result.
+__CUDA_FP16_DECL__ __half __low2half ( const __half2 a )
+Returns low 16 bits of half2 input.
+__CUDA_FP16_DECL__ __half2 __low2half2 ( const __half2 a )
+Extracts low 16 bits from half2 input.
+__CUDA_FP16_DECL__ __half2 __lowhigh2highlow ( const __half2 a )
+Swaps both halves of the half2 input.
+__CUDA_FP16_DECL__ __half2 __lows2half2 ( const __half2 a, const __half2 b )
+Extracts low 16 bits from each of the two half2 inputs and combines into one half2 number.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-math-api/index.html#ixzz3zSw2QnaH 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

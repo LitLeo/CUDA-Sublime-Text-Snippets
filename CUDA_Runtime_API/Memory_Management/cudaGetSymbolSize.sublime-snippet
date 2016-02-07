@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetSymbolSize(${0:size_t* size}, ${1:const void* symbol})
+cudaGetSymbolSize(${1:size_t* size}, ${2:const void* symbol})
+/*${3:Finds the size of the object associated with a CUDA symbol.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetSymbolSize</tabTrigger> 

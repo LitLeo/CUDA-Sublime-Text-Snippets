@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpyToSymbolAsync(${0:const void* symbol}, ${1:const void* src}, ${2:size_t count}, ${3:size_t offset}, ${4:cudaMemcpyKind kind}, ${5:cudaStream_t stream = 0})
+cudaMemcpyToSymbolAsync(${1:const void* symbol}, ${2:const void* src}, ${3:size_t count}, ${4:size_t offset}, ${5:cudaMemcpyKind kind}, ${6:cudaStream_t stream = 0})
+/*${7:Copies data to the given symbol on the device.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpyToSymbolAsync</tabTrigger> 

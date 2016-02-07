@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamGetPriority(${0:cudaStream_t hStream}, ${1:int* priority})
+cudaStreamGetPriority(${1:cudaStream_t hStream}, ${2:int* priority})
+/*${3:Query the priority of a stream.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamGetPriority</tabTrigger> 

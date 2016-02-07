@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaPointerGetAttributes(${0:cudaPointerAttributes* attributes}, ${1:const void* ptr})
+cudaPointerGetAttributes(${1:cudaPointerAttributes* attributes}, ${2:const void* ptr})
+/*${3:Returns attributes about a specified pointer.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaPointerGetAttributes</tabTrigger> 

@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMallocManaged(${0:void** devPtr}, ${1:size_t size}, ${2:unsigned int  flags})
+cudaMallocManaged(${1:void** devPtr}, ${2:size_t size}, ${3:unsigned int  flags})
+/*${4:Allocates memory that will be automatically managed by the Unified Memory system.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMallocManaged</tabTrigger> 

@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamAddCallback(${0:cudaStream_t stream}, ${1:cudaStreamCallback_t callback}, ${2:void* userData}, ${3:unsigned int  flags})
+cudaStreamAddCallback(${1:cudaStream_t stream}, ${2:cudaStreamCallback_t callback}, ${3:void* userData}, ${4:unsigned int  flags})
+/*${5:Add a callback to a compute stream.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamAddCallback</tabTrigger> 

@@ -14,7 +14,6 @@ import re
 # Thread_Management
 # Unified_Addressing
 
-
 dirs=[
 'CUDA_Runtime_API/Device_Management/',
 'CUDA_Runtime_API/Error_Handling/',
@@ -40,10 +39,10 @@ for dir in dirs:
 	# exit()
 
 	alllines = file_buffer.readlines()
-	for line in alllines:
-		if line.find('__host__') != -1:
-			# print line
-			reResult = re.search('(__.*__) (.*_t) (.*) \( (.*) \)', line, re.U)
+	for ln in xrange(0,len(alllines)):
+		if alllines[ln].find('__host__') != -1:
+			# print alllines[ln]
+			reResult = re.search('(__.*__) (.*_t) (.*) \( (.*) \)', alllines[ln], re.U)
 			if reResult:
 				Zuoyongyu = reResult.group(1)
 				Return = reResult.group(2)
@@ -58,15 +57,18 @@ for dir in dirs:
 					Params_split[x].strip()
 					Params_split[x].replace('  ', ' ')
 
-				for x in xrange(0,len(Params_split) - 1):
-					NewParams += '${' + str(x) + ':' + Params_split[x] + '}, '
-				NewParams += '${' + str(len(Params_split) - 1) + ':' + Params_split[len(Params_split) - 1] + '}'
+				for x in xrange(1,len(Params_split)):
+					NewParams += '${' + str(x) + ':' + Params_split[x-1] + '}, '
+				NewParams += '${' + str(len(Params_split)) + ':' + Params_split[len(Params_split) - 1] + '}'
+				# NewParams += 
 				# print NewParams
 				out_buffer = open(dir+Funname + '.sublime-snippet', 'w')
-				out_buffer.write('<snippet> \n\
+				out_buffer.write(
+'<snippet> \n\
 	<content><![CDATA[\n' + 
-Funname + '(' + NewParams + ')' +
-'\n]]></content> \n\
+Funname + '(' + NewParams + ')\n' +
+'/*${' + str(len(Params_split)+1) + ':' + alllines[ln + 1].strip() + '}*/ \
+\n]]></content> \n\
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> \n\
 	<tabTrigger>'+ Funname +'</tabTrigger> \n\
 	<!-- Optional: Set a scope to limit where the snippet will trigger --> \n\

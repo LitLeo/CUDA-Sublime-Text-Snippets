@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpy3D(${0:const cudaMemcpy3DParms* p})
+cudaMemcpy3D(${1:const cudaMemcpy3DParms* p})
+/*${2:Copies data between 3D objects.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpy3D</tabTrigger> 

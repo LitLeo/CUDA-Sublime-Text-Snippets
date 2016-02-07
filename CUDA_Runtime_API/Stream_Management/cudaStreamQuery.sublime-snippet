@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamQuery(${0:cudaStream_t stream})
+cudaStreamQuery(${1:cudaStream_t stream})
+/*${2:Queries an asynchronous stream for completion status.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamQuery</tabTrigger> 

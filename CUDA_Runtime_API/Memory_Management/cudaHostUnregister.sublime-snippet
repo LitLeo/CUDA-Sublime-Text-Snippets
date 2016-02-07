@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaHostUnregister(${0:void* ptr})
+cudaHostUnregister(${1:void* ptr})
+/*${2:Unregisters a memory range that was registered with cudaHostRegister.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaHostUnregister</tabTrigger> 

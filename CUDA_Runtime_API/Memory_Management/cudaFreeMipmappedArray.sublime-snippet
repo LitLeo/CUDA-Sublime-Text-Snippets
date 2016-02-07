@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaFreeMipmappedArray(${0:cudaMipmappedArray_t mipmappedArray})
+cudaFreeMipmappedArray(${1:cudaMipmappedArray_t mipmappedArray})
+/*${2:Frees a mipmapped array on the device.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaFreeMipmappedArray</tabTrigger> 

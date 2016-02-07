@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamCreate(${0:cudaStream_t* pStream})
+cudaStreamCreate(${1:cudaStream_t* pStream})
+/*${2:Create an asynchronous stream.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamCreate</tabTrigger> 

@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaHostRegister(${0:void* ptr}, ${1:size_t size}, ${2:unsigned int  flags})
+cudaHostRegister(${1:void* ptr}, ${2:size_t size}, ${3:unsigned int  flags})
+/*${4:Registers an existing host memory range for use by CUDA.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaHostRegister</tabTrigger> 

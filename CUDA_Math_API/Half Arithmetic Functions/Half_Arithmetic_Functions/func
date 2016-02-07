@@ -1,0 +1,22 @@
+__CUDA_FP16_DECL__ __half __hadd ( const __half a, const __half b )
+Performs half addition in round-to-nearest mode.
+__CUDA_FP16_DECL__ __half __hadd_sat ( const __half a, const __half b )
+Performs half addition in round-to-nearest mode, with saturation to [0.0, 1.0].
+__CUDA_FP16_DECL__ __half __hfma ( const __half a, const __half b, const __half c )
+Performs half fused multiply-add in round-to-nearest mode.
+__CUDA_FP16_DECL__ __half __hfma_sat ( const __half a, const __half b, const __half c )
+Performs half fused multiply-add in round-to-nearest mode, with saturation to [0.0, 1.0].
+__CUDA_FP16_DECL__ __half __hmul ( const __half a, const __half b )
+Performs half multiplication in round-to-nearest mode.
+__CUDA_FP16_DECL__ __half __hmul_sat ( const __half a, const __half b )
+Performs half multiplication in round-to-nearest mode, with saturation to [0.0, 1.0].
+__CUDA_FP16_DECL__ __half __hneg ( const __half a )
+Negates input half number and returns the result.
+__CUDA_FP16_DECL__ __half __hsub ( const __half a, const __half b )
+Performs half subtraction in round-to-nearest mode.
+__CUDA_FP16_DECL__ __half __hsub_sat ( const __half a, const __half b )
+Performs half subtraction in round-to-nearest mode, with saturation to [0.0, 1.0].
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-math-api/index.html#ixzz3zSvPzdSs 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

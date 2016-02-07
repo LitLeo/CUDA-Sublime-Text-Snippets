@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamWaitEvent(${0:cudaStream_t stream}, ${1:cudaEvent_t event}, ${2:unsigned int  flags})
+cudaStreamWaitEvent(${1:cudaStream_t stream}, ${2:cudaEvent_t event}, ${3:unsigned int  flags})
+/*${4:Make a compute stream wait on an event.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamWaitEvent</tabTrigger> 

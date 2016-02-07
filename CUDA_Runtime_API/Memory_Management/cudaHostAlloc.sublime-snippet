@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaHostAlloc(${0:void** pHost}, ${1:size_t size}, ${2:unsigned int  flags})
+cudaHostAlloc(${1:void** pHost}, ${2:size_t size}, ${3:unsigned int  flags})
+/*${4:Allocates page-locked memory on the host.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaHostAlloc</tabTrigger> 

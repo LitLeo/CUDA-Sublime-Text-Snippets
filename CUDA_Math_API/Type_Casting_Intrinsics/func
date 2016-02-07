@@ -1,0 +1,150 @@
+__device__ ​ float __double2float_rd ( double  x )
+Convert a double to a float in round-down mode.
+__device__ ​ float __double2float_rn ( double  x )
+Convert a double to a float in round-to-nearest-even mode.
+__device__ ​ float __double2float_ru ( double  x )
+Convert a double to a float in round-up mode.
+__device__ ​ float __double2float_rz ( double  x )
+Convert a double to a float in round-towards-zero mode.
+__device__ ​ int __double2hiint ( double  x )
+Reinterpret high 32 bits in a double as a signed integer.
+__device__ ​ int __double2int_rd ( double  x )
+Convert a double to a signed int in round-down mode.
+__device__ ​ int __double2int_rn ( double  x )
+Convert a double to a signed int in round-to-nearest-even mode.
+__device__ ​ int __double2int_ru ( double  x )
+Convert a double to a signed int in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ int __double2int_rz ( double )
+Convert a double to a signed int in round-towards-zero mode.
+__device__ ​ long long int __double2ll_rd ( double  x )
+Convert a double to a signed 64-bit int in round-down mode.
+__device__ ​ long long int __double2ll_rn ( double  x )
+Convert a double to a signed 64-bit int in round-to-nearest-even mode.
+__device__ ​ long long int __double2ll_ru ( double  x )
+Convert a double to a signed 64-bit int in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ long long int __double2ll_rz ( double )
+Convert a double to a signed 64-bit int in round-towards-zero mode.
+__device__ ​ int __double2loint ( double  x )
+Reinterpret low 32 bits in a double as a signed integer.
+__device__ ​ unsigned int __double2uint_rd ( double  x )
+Convert a double to an unsigned int in round-down mode.
+__device__ ​ unsigned int __double2uint_rn ( double  x )
+Convert a double to an unsigned int in round-to-nearest-even mode.
+__device__ ​ unsigned int __double2uint_ru ( double  x )
+Convert a double to an unsigned int in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __double2uint_rz ( double )
+Convert a double to an unsigned int in round-towards-zero mode.
+__device__ ​ unsigned long long int __double2ull_rd ( double  x )
+Convert a double to an unsigned 64-bit int in round-down mode.
+__device__ ​ unsigned long long int __double2ull_rn ( double  x )
+Convert a double to an unsigned 64-bit int in round-to-nearest-even mode.
+__device__ ​ unsigned long long int __double2ull_ru ( double  x )
+Convert a double to an unsigned 64-bit int in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned long long int __double2ull_rz ( double )
+Convert a double to an unsigned 64-bit int in round-towards-zero mode.
+__device__ ​ long long int __double_as_longlong ( double  x )
+Reinterpret bits in a double as a 64-bit signed integer.
+__DEVICE_FUNCTIONS_DECL__ unsigned short __float2half_rn ( float  x )
+Convert a single-precision float to a half-precision float in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ int __float2int_rd ( float  x )
+Convert a float to a signed integer in round-down mode.
+__DEVICE_FUNCTIONS_DECL__ int __float2int_rn ( float  x )
+Convert a float to a signed integer in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ int __float2int_ru ( float )
+Convert a float to a signed integer in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ int __float2int_rz ( float  x )
+Convert a float to a signed integer in round-towards-zero mode.
+__DEVICE_FUNCTIONS_DECL__ long long int __float2ll_rd ( float  x )
+Convert a float to a signed 64-bit integer in round-down mode.
+__DEVICE_FUNCTIONS_DECL__ long long int __float2ll_rn ( float  x )
+Convert a float to a signed 64-bit integer in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ long long int __float2ll_ru ( float  x )
+Convert a float to a signed 64-bit integer in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ long long int __float2ll_rz ( float  x )
+Convert a float to a signed 64-bit integer in round-towards-zero mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __float2uint_rd ( float  x )
+Convert a float to an unsigned integer in round-down mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __float2uint_rn ( float  x )
+Convert a float to an unsigned integer in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __float2uint_ru ( float  x )
+Convert a float to an unsigned integer in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __float2uint_rz ( float  x )
+Convert a float to an unsigned integer in round-towards-zero mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned long long int __float2ull_rd ( float  x )
+Convert a float to an unsigned 64-bit integer in round-down mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned long long int __float2ull_rn ( float  x )
+Convert a float to an unsigned 64-bit integer in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned long long int __float2ull_ru ( float  x )
+Convert a float to an unsigned 64-bit integer in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ unsigned long long int __float2ull_rz ( float  x )
+Convert a float to an unsigned 64-bit integer in round-towards-zero mode.
+__DEVICE_FUNCTIONS_DECL__ int __float_as_int ( float  x )
+Reinterpret bits in a float as a signed integer.
+__DEVICE_FUNCTIONS_DECL__ unsigned int __float_as_uint ( float  x )
+Reinterpret bits in a float as a unsigned integer.
+__DEVICE_FUNCTIONS_DECL__ float __half2float ( unsigned short x )
+Convert a half-precision float to a single-precision float in round-to-nearest-even mode.
+__device__ ​ double __hiloint2double ( int  hi, int  lo )
+Reinterpret high and low 32-bit integer values as a double.
+__device__ ​ double __int2double_rn ( int  x )
+Convert a signed int to a double.
+__DEVICE_FUNCTIONS_DECL__ float __int2float_rd ( int  x )
+Convert a signed integer to a float in round-down mode.
+__DEVICE_FUNCTIONS_DECL__ float __int2float_rn ( int  x )
+Convert a signed integer to a float in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ float __int2float_ru ( int  x )
+Convert a signed integer to a float in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ float __int2float_rz ( int  x )
+Convert a signed integer to a float in round-towards-zero mode.
+__DEVICE_FUNCTIONS_DECL__ float __int_as_float ( int  x )
+Reinterpret bits in an integer as a float.
+__device__ ​ double __ll2double_rd ( long long int x )
+Convert a signed 64-bit int to a double in round-down mode.
+__device__ ​ double __ll2double_rn ( long long int x )
+Convert a signed 64-bit int to a double in round-to-nearest-even mode.
+__device__ ​ double __ll2double_ru ( long long int x )
+Convert a signed 64-bit int to a double in round-up mode.
+__device__ ​ double __ll2double_rz ( long long int x )
+Convert a signed 64-bit int to a double in round-towards-zero mode.
+__DEVICE_FUNCTIONS_DECL__ float __ll2float_rd ( long long int x )
+Convert a signed integer to a float in round-down mode.
+__DEVICE_FUNCTIONS_DECL__ float __ll2float_rn ( long long int x )
+Convert a signed 64-bit integer to a float in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ float __ll2float_ru ( long long int x )
+Convert a signed integer to a float in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ float __ll2float_rz ( long long int x )
+Convert a signed integer to a float in round-towards-zero mode.
+__device__ ​ double __longlong_as_double ( long long int x )
+Reinterpret bits in a 64-bit signed integer as a double.
+__device__ ​ double __uint2double_rn ( unsigned int  x )
+Convert an unsigned int to a double.
+__DEVICE_FUNCTIONS_DECL__ float __uint2float_rd ( unsigned int  x )
+Convert an unsigned integer to a float in round-down mode.
+__DEVICE_FUNCTIONS_DECL__ float __uint2float_rn ( unsigned int  x )
+Convert an unsigned integer to a float in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ float __uint2float_ru ( unsigned int  x )
+Convert an unsigned integer to a float in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ float __uint2float_rz ( unsigned int  x )
+Convert an unsigned integer to a float in round-towards-zero mode.
+__DEVICE_FUNCTIONS_DECL__ float __uint_as_float ( unsigned int  x )
+Reinterpret bits in an unsigned integer as a float.
+__device__ ​ double __ull2double_rd ( unsigned long long int x )
+Convert an unsigned 64-bit int to a double in round-down mode.
+__device__ ​ double __ull2double_rn ( unsigned long long int x )
+Convert an unsigned 64-bit int to a double in round-to-nearest-even mode.
+__device__ ​ double __ull2double_ru ( unsigned long long int x )
+Convert an unsigned 64-bit int to a double in round-up mode.
+__device__ ​ double __ull2double_rz ( unsigned long long int x )
+Convert an unsigned 64-bit int to a double in round-towards-zero mode.
+__DEVICE_FUNCTIONS_DECL__ float __ull2float_rd ( unsigned long long int x )
+Convert an unsigned integer to a float in round-down mode.
+__DEVICE_FUNCTIONS_DECL__ float __ull2float_rn ( unsigned long long int x )
+Convert an unsigned integer to a float in round-to-nearest-even mode.
+__DEVICE_FUNCTIONS_DECL__ float __ull2float_ru ( unsigned long long int x )
+Convert an unsigned integer to a float in round-up mode.
+__DEVICE_FUNCTIONS_DECL__ float __ull2float_rz ( unsigned long long int x )
+Convert an unsigned integer to a float in round-towards-zero mode.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-math-api/index.html#ixzz3zSutejZ7 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaIpcGetMemHandle(${0:cudaIpcMemHandle_t* handle}, ${1:void* devPtr})
+cudaIpcGetMemHandle(${1:cudaIpcMemHandle_t* handle}, ${2:void* devPtr})
+/*${3:Gets an interprocess memory handle for an existing device memory allocation.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaIpcGetMemHandle</tabTrigger> 

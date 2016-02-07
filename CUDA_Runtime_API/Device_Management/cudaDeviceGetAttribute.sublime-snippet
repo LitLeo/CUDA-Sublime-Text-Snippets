@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceGetAttribute(${0:int* value}, ${1:cudaDeviceAttr attr}, ${2:int  device})
+cudaDeviceGetAttribute(${1:int* value}, ${2:cudaDeviceAttr attr}, ${3:int  device})
+/*${4:Returns information about the device.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceGetAttribute</tabTrigger> 

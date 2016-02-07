@@ -1,0 +1,32 @@
+__CUDA_FP16_DECL__ bool __heq ( const __half a, const __half b )
+Performs half if-equal comparison.
+__CUDA_FP16_DECL__ bool __hequ ( const __half a, const __half b )
+Performs half unordered if-equal comparison.
+__CUDA_FP16_DECL__ bool __hge ( const __half a, const __half b )
+Performs half greater-equal comparison.
+__CUDA_FP16_DECL__ bool __hgeu ( const __half a, const __half b )
+Performs half unordered greater-equal comparison.
+__CUDA_FP16_DECL__ bool __hgt ( const __half a, const __half b )
+Performs half greater-than comparison.
+__CUDA_FP16_DECL__ bool __hgtu ( const __half a, const __half b )
+Performs half unordered greater-than comparison.
+__CUDA_FP16_DECL__ int __hisinf ( const __half a )
+Checks if the input half number is infinite.
+__CUDA_FP16_DECL__ bool __hisnan ( const __half a )
+Determine whether half argument is a NaN.
+__CUDA_FP16_DECL__ bool __hle ( const __half a, const __half b )
+Performs half less-equal comparison.
+__CUDA_FP16_DECL__ bool __hleu ( const __half a, const __half b )
+Performs half unordered less-equal comparison.
+__CUDA_FP16_DECL__ bool __hlt ( const __half a, const __half b )
+Performs half less-than comparison.
+__CUDA_FP16_DECL__ bool __hltu ( const __half a, const __half b )
+Performs half unordered less-than comparison.
+__CUDA_FP16_DECL__ bool __hne ( const __half a, const __half b )
+Performs half not-equal comparison.
+__CUDA_FP16_DECL__ bool __hneu ( const __half a, const __half b )
+Performs half unordered not-equal comparison.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-math-api/index.html#ixzz3zSvlIfNT 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

@@ -1,6 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMallocMipmappedArray(${0:cudaMipmappedArray_t* mipmappedArray}, ${1:const cudaChannelFormatDesc* desc}, ${2:cudaExtent extent}, ${3:unsigned int  numLevels}, ${4:unsigned int  flags = 0})
+cudaMallocMipmappedArray(${1:cudaMipmappedArray_t* mipmappedArray}, ${2:const cudaChannelFormatDesc* desc}, ${3:cudaExtent extent}, ${4:unsigned int  numLevels}, ${5:unsigned int  flags = 0})
+/*${6:Allocate a mipmapped array on the device.}*/ 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMallocMipmappedArray</tabTrigger> 
