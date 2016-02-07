@@ -1,0 +1,9 @@
+<snippet> 
+	<content><![CDATA[
+cudaMallocMipmappedArray(${0:cudaMipmappedArray_t* mipmappedArray}, ${1:const cudaChannelFormatDesc* desc}, ${2:cudaExtent extent}, ${3:unsigned int  numLevels}, ${4:unsigned int  flags = 0})
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>cudaMallocMipmappedArray</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

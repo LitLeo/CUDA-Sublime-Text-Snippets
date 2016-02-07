@@ -1,9 +1,9 @@
 <snippet> 
 	<content><![CDATA[
-cudaMalloc(${0:void** devPtr}, ${1:size_t size})
+cudaDeviceGetAttribute(${0:int* value}, ${1:cudaDeviceAttr attr}, ${2:int  device})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
-	<tabTrigger>cudaMalloc</tabTrigger> 
+	<tabTrigger>cudaDeviceGetAttribute</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
 	<scope>source.cuda-c++</scope> 
 </snippet>

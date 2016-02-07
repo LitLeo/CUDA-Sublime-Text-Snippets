@@ -1,9 +1,9 @@
 <snippet> 
 	<content><![CDATA[
-cudaMalloc(${0:void** devPtr}, ${1:size_t size})
+cudaMemcpyToArray(${0:cudaArray_t dst}, ${1:size_t wOffset}, ${2:size_t hOffset}, ${3:const void* src}, ${4:size_t count}, ${5:cudaMemcpyKind kind})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
-	<tabTrigger>cudaMalloc</tabTrigger> 
+	<tabTrigger>cudaMemcpyToArray</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
 	<scope>source.cuda-c++</scope> 
 </snippet>

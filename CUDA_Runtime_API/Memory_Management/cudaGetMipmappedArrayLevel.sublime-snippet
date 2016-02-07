@@ -1,9 +1,9 @@
 <snippet> 
 	<content><![CDATA[
-cudaMalloc(${0:void** devPtr}, ${1:size_t size})
+cudaGetMipmappedArrayLevel(${0:cudaArray_t* levelArray}, ${1:cudaMipmappedArray_const_t mipmappedArray}, ${2:unsigned int  level})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
-	<tabTrigger>cudaMalloc</tabTrigger> 
+	<tabTrigger>cudaGetMipmappedArrayLevel</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
 	<scope>source.cuda-c++</scope> 
 </snippet>

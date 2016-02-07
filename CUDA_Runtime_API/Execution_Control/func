@@ -1,0 +1,20 @@
+__host__ ​ __device__ ​cudaError_t cudaFuncGetAttributes ( cudaFuncAttributes* attr, const void* func )
+Find out attributes for a given function.
+__host__ ​cudaError_t cudaFuncSetCacheConfig ( const void* func, cudaFuncCache cacheConfig )
+Sets the preferred cache configuration for a device function.
+__host__ ​cudaError_t cudaFuncSetSharedMemConfig ( const void* func, cudaSharedMemConfig config )
+Sets the shared memory configuration for a device function.
+__device__ ​ void* cudaGetParameterBuffer ( size_t alignment, size_t size )
+Obtains a parameter buffer.
+__device__ ​ void* cudaGetParameterBufferV2 ( void* func, dim3 gridDimension, dim3 blockDimension, unsigned int  sharedMemSize )
+Launches a specified kernel.
+__host__ ​cudaError_t cudaLaunchKernel ( const void* func, dim3 gridDim, dim3 blockDim, void** args, size_t sharedMem, cudaStream_t stream )
+Launches a device function.
+__host__ ​cudaError_t cudaSetDoubleForDevice ( double* d )
+Converts a double argument to be executed on a device.
+__host__ ​cudaError_t cudaSetDoubleForHost ( double* d )
+Converts a double argument after execution on a device.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-runtime-api/index.html#ixzz3zPFvMBH0 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

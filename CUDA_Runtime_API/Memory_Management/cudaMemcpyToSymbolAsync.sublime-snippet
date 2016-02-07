@@ -1,9 +1,9 @@
 <snippet> 
 	<content><![CDATA[
-cudaMalloc(${0:void** devPtr}, ${1:size_t size})
+cudaMemcpyToSymbolAsync(${0:const void* symbol}, ${1:const void* src}, ${2:size_t count}, ${3:size_t offset}, ${4:cudaMemcpyKind kind}, ${5:cudaStream_t stream = 0})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
-	<tabTrigger>cudaMalloc</tabTrigger> 
+	<tabTrigger>cudaMemcpyToSymbolAsync</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
 	<scope>source.cuda-c++</scope> 
 </snippet>

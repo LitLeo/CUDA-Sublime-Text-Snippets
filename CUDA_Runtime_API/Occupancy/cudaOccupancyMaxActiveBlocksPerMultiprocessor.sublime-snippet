@@ -1,9 +1,9 @@
 <snippet> 
 	<content><![CDATA[
-cudaMalloc(${0:void** devPtr}, ${1:size_t size})
+cudaOccupancyMaxActiveBlocksPerMultiprocessor(${0:int* numBlocks}, ${1:const void* func}, ${2:int  blockSize}, ${3:size_t dynamicSMemSize})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
-	<tabTrigger>cudaMalloc</tabTrigger> 
+	<tabTrigger>cudaOccupancyMaxActiveBlocksPerMultiprocessor</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
 	<scope>source.cuda-c++</scope> 
 </snippet>

@@ -1,0 +1,9 @@
+<snippet> 
+	<content><![CDATA[
+cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags(${0:int* numBlocks}, ${1:const void* func}, ${2:int  blockSize}, ${3:size_t dynamicSMemSize}, ${4:unsigned int  flags})
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

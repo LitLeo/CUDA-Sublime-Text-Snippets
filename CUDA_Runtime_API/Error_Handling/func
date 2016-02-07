@@ -1,0 +1,12 @@
+__host__ ​ __device__ ​const char* cudaGetErrorName ( cudaError_t error )
+Returns the string representation of an error code enum name.
+__host__ ​ __device__ ​const char* cudaGetErrorString ( cudaError_t error )
+Returns the description string for an error code.
+__host__ ​ __device__ ​cudaError_t cudaGetLastError ( void )
+Returns the last error from a runtime call.
+__host__ ​ __device__ ​cudaError_t cudaPeekAtLastError ( void )
+Returns the last error from a runtime call.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-runtime-api/index.html#ixzz3zPFZMA1S 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook

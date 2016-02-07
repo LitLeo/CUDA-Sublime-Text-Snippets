@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>cu</string>
+		<string>cuh</string>
+		<string>h</string>
+	</array>
+	<key>firstLineMatch</key>
+	<string>-\*- C\+\+ -\*-</string>
+	<key>foldingStartMarker</key>
+	<string>(?x)
+		 /\*\*(?!\*)
+		|^(?![^{]*?//|[^{]*?/\*(?!.*?\*/.*?\{)).*?\{\s*($|//|/\*(?!.*?\*/.*\S))
+	</string>
+	<key>foldingStopMarker</key>
+	<string>(?&lt;!\*)\*\*/|^\s*\}</string>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
+	<key>name</key>
+	<string>CUDA C++</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.1 FUNCTION TYPE QUALIFIERS</string>
+			<key>match</key>
+			<string>\b__(global|device|host|noinline|forceinline)__\b</string>
+			<key>name</key>
+			<string>keyword.function.qualifier.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.2 VARIABLE TYPE QUALIFIERS</string>
+			<key>match</key>
+			<string>\b__(device|constant|managed|shared|restrict)__\b</string>
+			<key>name</key>
+			<string>storage.modifier.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.3 BUILT-IN VECTOR TYPES</string>
+			<key>match</key>
+			<string>\b(dim3|char[1-4]|uchar[1-4]|short[1-4]|ushort[1-4]|int[1-4]|uint[1-4]|long[1-4]|ulong[1-4]|longlong[1-4]|ulonglong[1-4]|float[1-4]|double[1-4])\b</string>
+			<key>name</key>
+			<string>support.type.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.4 BUILT-IN VARIABLES</string>
+			<key>match</key>
+			<string>\b(gridDim|blockIdx|blockDim|threadIdx|warpSize)\b</string>
+			<key>name</key>
+			<string>variable.language.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.5 MEMORY FENCE FUNCTIONS</string>
+			<key>match</key>
+			<string>\b__(threadfence_system|threadfence_block|threadfence)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.6 SYNCHRONIZATION FUNCTIONS</string>
+			<key>match</key>
+			<string>\b__(syncthreads_count|syncthreads_and|syncthreads_or|syncthreads)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.8 TEXTURE FUNCTIONS</string>
+			<key>match</key>
+			<string>\b(texCubemapLayered|tex1Dlayered|tex2Dlayered|tex2Dgather|tex1Dfetch|texCubemap|tex1D|tex2D|tex3D)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.9 SURFACE FUNCTIONS</string>
+			<key>match</key>
+			<string>\b(surfCubemapLayeredwrite|surfCubemapLayeredread|surf1DLayeredwrite|surf2DLayeredwrite|surf1DLayeredread|surf2DLayeredread|surfCubemapwrite|surfCubemapread|surf1Dwrite|surf2Dwrite|surf3Dwrite|surf1Dread|surf2Dread|surf3Dread)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.10 READ-ONLY DATA CACHE LOAD FUNCTION</string>
+			<key>match</key>
+			<string>\b__ldg\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.11 TIME FUNCTION</string>
+			<key>match</key>
+			<string>\b(clock|clock64)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.12 ATOMIC FUNCTIONS</string>
+			<key>match</key>
+			<string>\b(atomicExch|atomicAdd|atomicSub|atomicMin|atomicMax|atomicInc|atomicDec|atomicCAS|atomicAnd|atomicXor|atomicOr)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.13 WARP VOTE FUNCTIONS</string>
+			<key>match</key>
+			<string>\b__(ballot|all|any)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.14 WARP SHUFFLE FUNCTIONS</string>
+			<key>match</key>
+			<string>\b__(shfl_down|shfl_xor|shfl_up|shfl)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.15 PROFILER COUNTER FUNCTION</string>
+			<key>match</key>
+			<string>\b__(prof_trigger)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.16 ASSERTION</string>
+			<key>match</key>
+			<string>\bassert\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.17 FORMATTED OUTPUT</string>
+			<key>match</key>
+			<string>\printf\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.18 DYNAMIC GLOBAL MEMORY ALLOCATION AND OPERATIONS</string>
+			<key>match</key>
+			<string>\b(malloc|free|memcpy|memset)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(&lt;&lt;&lt;)</string>
+			<key>comment</key>
+			<string>B.19 EXECUTION CONFIGURATION</string>
+			<key>end</key>
+			<string>(&gt;&gt;&gt;)</string>
+			<key>name</key>
+			<string>keyword.operator.cuda-c++</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>$base</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>B.20 LAUNCH BOUNDS</string>
+			<key>match</key>
+			<string>\b__launch_bounds__\b</string>
+			<key>name</key>
+			<string>support.function.qualifier.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>D.2 INTRINSIC FUNCTIONS Table 8</string>
+			<key>match</key>
+			<string>\b__(fdividef|sincosf|log10f|exp10f|log2f|logf|expf|powf|sinf|cosf|tanf)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>D.2 INTRINSIC FUNCTIONS Table 9</string>
+			<key>match</key>
+			<string>\b__((fsqrt|frcp|fadd|fsub|fmul|fmaf|fdiv)_(rn|rz|ru|rd)|frsqrt_rn)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>D.2 INTRINSIC FUNCTIONS Table 10</string>
+			<key>match</key>
+			<string>\b__(dsqrt|dadd|dsub|dmul|ddiv|drcp|fma)_(rn|rz|ru|rd)\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict/>
+	<key>scopeName</key>
+	<string>source.cuda-c++</string>
+	<key>uuid</key>
+	<string>e498cb33-bf6f-487b-8c77-02576bcb76dc</string>
+</dict>
+</plist>

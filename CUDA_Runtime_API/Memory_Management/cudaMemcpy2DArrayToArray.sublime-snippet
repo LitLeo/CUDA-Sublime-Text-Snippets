@@ -1,0 +1,9 @@
+<snippet> 
+	<content><![CDATA[
+cudaMemcpy2DArrayToArray(${0:cudaArray_t dst}, ${1:size_t wOffsetDst}, ${2:size_t hOffsetDst}, ${3:cudaArray_const_t src}, ${4:size_t wOffsetSrc}, ${5:size_t hOffsetSrc}, ${6:size_t width}, ${7:size_t height}, ${8:cudaMemcpyKind kind = cudaMemcpyDeviceToDevice})
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>cudaMemcpy2DArrayToArray</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

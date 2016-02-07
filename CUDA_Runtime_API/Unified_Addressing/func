@@ -1,0 +1,6 @@
+__host__ ​cudaError_t cudaPointerGetAttributes ( cudaPointerAttributes* attributes, const void* ptr )
+Returns attributes about a specified pointer.
+
+
+Read more at: http://docs.nvidia.com/cuda/cuda-runtime-api/index.html#ixzz3zPGH9GXq 
+Follow us: @GPUComputing on Twitter | NVIDIA on Facebook
