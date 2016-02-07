@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+make_cudaPos(${1:size_t x}, ${2:size_t y}, ${3:size_t z})
+/*${4:Returns a cudaPos based on input parameters.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>make_cudaPos</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

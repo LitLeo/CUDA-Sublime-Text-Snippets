@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+cudaGetParameterBufferV2(${1:void* func}, ${2:dim3 gridDimension}, ${3:dim3 blockDimension}, ${4:unsigned int  sharedMemSize})
+/*${5:Launches a specified kernel.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>cudaGetParameterBufferV2</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

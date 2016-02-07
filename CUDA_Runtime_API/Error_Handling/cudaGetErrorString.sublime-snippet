@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+cudaGetErrorString(${1:cudaError_t error})
+/*${2:Returns the description string for an error code.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>cudaGetErrorString</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>

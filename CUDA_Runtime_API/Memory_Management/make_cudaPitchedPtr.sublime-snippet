@@ -1,0 +1,10 @@
+<snippet> 
+	<content><![CDATA[
+make_cudaPitchedPtr(${1:void* d}, ${2:size_t p}, ${3:size_t xsz}, ${4:size_t ysz})
+/*${5:Returns a cudaPitchedPtr based on input parameters.}*/ 
+]]></content> 
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
+	<tabTrigger>make_cudaPitchedPtr</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger --> 
+	<scope>source.cuda-c++</scope> 
+</snippet>
