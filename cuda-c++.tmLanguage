@@ -39,7 +39,7 @@
 			<key>comment</key>
 			<string>B.2 VARIABLE TYPE QUALIFIERS</string>
 			<key>match</key>
-			<string>\b__(device|constant|managed|shared|restrict)__\b</string>
+			<string>\b__(device|constant|managesharedd||restrict)__\b</string>
 			<key>name</key>
 			<string>storage.modifier.cuda-c++</string>
 		</dict>
@@ -79,7 +79,7 @@
 			<key>comment</key>
 			<string>B.8 TEXTURE FUNCTIONS</string>
 			<key>match</key>
-			<string>\b(texCubemapLayered|tex1Dlayered|tex2Dlayered|tex2Dgather|tex1Dfetch|texCubemap|tex1D|tex2D|tex3D)\b</string>
+			<string>\b(tex1Dfetch|tex[1-3]D|tex[1-3]DLod|tex[1-3]DGrad|tex[1-2]Dlayered|tex[1-2]DlayeredLod|tex[1-2]DlayeredGrad|texCubemap|texCubemapLod|texCubemapLayered|texCubemapLayeredLod|tex2Dgather|)\b</string>
 			<key>name</key>
 			<string>support.function.cuda-c++</string>
 		</dict>
@@ -87,7 +87,7 @@
 			<key>comment</key>
 			<string>B.9 SURFACE FUNCTIONS</string>
 			<key>match</key>
-			<string>\b(surfCubemapLayeredwrite|surfCubemapLayeredread|surf1DLayeredwrite|surf2DLayeredwrite|surf1DLayeredread|surf2DLayeredread|surfCubemapwrite|surfCubemapread|surf1Dwrite|surf2Dwrite|surf3Dwrite|surf1Dread|surf2Dread|surf3Dread)\b</string>
+			<string>\b(surf[1-3]Dread|surf[1-3]Dwrite|surf[1-2]DLayeredread|surf[1-2]DLayeredwrite|surfCubemapwrite|surfCubemapread|surfCubemapLayeredwrite|surfCubemapLayeredread)\b</string>
 			<key>name</key>
 			<string>support.function.cuda-c++</string>
 		</dict>
@@ -187,6 +187,14 @@
 			<string>\b__launch_bounds__\b</string>
 			<key>name</key>
 			<string>support.function.qualifier.cuda-c++</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>D.1 Standard Functions Table 6</string>
+			<key>match</key>
+			<string>\brsqrtf|sqrtf|cbrtf|rcbrtf|hypotf|rhypotf|norm3df|rnorm3df|norm4df|rnorm4df|normf|rnormf|expf|exp2f|exp10f|expm1f|logf|log2f|log10f|log1pf|sinf|cosf|tanf|sincosf|sinpif|cospif|sincospif|asinf|acosf|atanf|atan2f|sinhf|coshf|tanhf|asinhf|acoshf|atanhf|powf|erff|erfcf|erfinvf|erfcinvf|erfcxf|normcdff|normcdfinvf|lgammaf|tgammaf|fmaf|frexpf|ldexpf|scalbnf|scalblnf|logbf|ilogbf|j0f|j1f|jnf|y0f|y1f|ynf|cyl_bessel_i0f|cyl_bessel_i1f|fmodf|remainderf|remquof|modff|fdimf|truncf|roundf|rintf|nearbyintf|ceilf|floorf|lrintf|lroundf|llrintf|llroundf\b</string>
+			<key>name</key>
+			<string>support.function.cuda-c++</string>
 		</dict>
 		<dict>
 			<key>comment</key>
