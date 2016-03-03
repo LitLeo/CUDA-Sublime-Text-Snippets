@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__ll2float_rz(${1:long long int x})
-/*${2:Convert a signed integer to a float in round-towards-zero mode.}*/ 
+__ll2float_rz(${1:long long int x});
+${2:/*Convert a signed integer to a float in round-towards-zero mode.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__ll2float_rz</tabTrigger> 

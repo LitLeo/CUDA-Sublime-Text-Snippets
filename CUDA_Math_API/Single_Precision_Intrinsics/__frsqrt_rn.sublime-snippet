@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__frsqrt_rn(${1:float  x})
-/*${2:Compute 1 / x in round-to-nearest-even mode.}*/ 
+__frsqrt_rn(${1:float  x});
+${2:/*Compute 1 / x in round-to-nearest-even mode.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__frsqrt_rn</tabTrigger> 

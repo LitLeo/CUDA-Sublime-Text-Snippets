@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__popc(${1:unsigned int  x})
-/*${2:Count the number of bits that are set to 1 in a 32 bit integer.}*/ 
+__popc(${1:unsigned int  x});
+${2:/*Count the number of bits that are set to 1 in a 32 bit integer.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__popc</tabTrigger> 

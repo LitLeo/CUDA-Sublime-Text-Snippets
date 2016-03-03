@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-tanf(${1:float  x})
-/*${2:Calculate the tangent of the input argument.}*/ 
+tanf(${1:float  x});
+${2:/*Calculate the tangent of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>tanf</tabTrigger> 

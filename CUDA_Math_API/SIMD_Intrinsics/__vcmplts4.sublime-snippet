@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__vcmplts4(${1:unsigned int  a}, ${2:unsigned int  b})
-/*${3:Performs per-byte signed comparison.}*/ 
+__vcmplts4(${1:unsigned int  a}, ${2:unsigned int  b});
+${3:/*Performs per-byte signed comparison.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__vcmplts4</tabTrigger> 

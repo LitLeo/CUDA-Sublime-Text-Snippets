@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-asin(${1:double  x})
-/*${2:Calculate the arc sine of the input argument.}*/ 
+asin(${1:double  x});
+${2:/*Calculate the arc sine of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>asin</tabTrigger> 

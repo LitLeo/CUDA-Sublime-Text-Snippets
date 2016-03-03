@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__vnegss4(${1:unsigned int  a})
-/*${2:Performs per-byte negation with signed saturation.}*/ 
+__vnegss4(${1:unsigned int  a});
+${2:/*Performs per-byte negation with signed saturation.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__vnegss4</tabTrigger> 

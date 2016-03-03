@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetDevice(${1:int* device})
-/*${2:Returns which device is currently being used.}*/ 
+cudaGetDevice(${1:int* device});
+${2:/*Returns which device is currently being used.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetDevice</tabTrigger> 

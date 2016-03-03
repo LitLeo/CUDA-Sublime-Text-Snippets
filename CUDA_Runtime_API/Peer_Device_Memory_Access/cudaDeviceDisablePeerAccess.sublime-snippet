@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceDisablePeerAccess(${1:int  peerDevice})
-/*${2:Disables direct access to memory allocations on a peer device.}*/ 
+cudaDeviceDisablePeerAccess(${1:int  peerDevice});
+${2:/*Disables direct access to memory allocations on a peer device.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceDisablePeerAccess</tabTrigger> 

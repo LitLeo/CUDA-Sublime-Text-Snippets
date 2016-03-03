@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMalloc3D(${1:cudaPitchedPtr* pitchedDevPtr}, ${2:cudaExtent extent})
-/*${3:Allocates logical 1D, 2D, or 3D memory objects on the device.}*/ 
+cudaMalloc3D(${1:cudaPitchedPtr* pitchedDevPtr}, ${2:cudaExtent extent});
+${3:/*Allocates logical 1D, 2D, or 3D memory objects on the device.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMalloc3D</tabTrigger> 

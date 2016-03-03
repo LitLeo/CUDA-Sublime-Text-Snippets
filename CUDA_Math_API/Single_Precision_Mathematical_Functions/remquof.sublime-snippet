@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-remquof(${1:float  x}, ${2:float  y}, ${3:int* quo})
-/*${4:Compute single-precision floating-point remainder and part of quotient.}*/ 
+remquof(${1:float  x}, ${2:float  y}, ${3:int* quo});
+${4:/*Compute single-precision floating-point remainder and part of quotient.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>remquof</tabTrigger> 

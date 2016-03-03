@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__drcp_rz(${1:double  x})
-/*${2:Compute 1 x in round-towards-zero mode.}*/ 
+__drcp_rz(${1:double  x});
+${2:/*Compute 1 x in round-towards-zero mode.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__drcp_rz</tabTrigger> 

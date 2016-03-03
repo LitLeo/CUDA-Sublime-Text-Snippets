@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMalloc(${1:void** devPtr}, ${2:size_t size})
-/*${3:Allocate memory on the device.}*/ 
+cudaMalloc(${1:void** devPtr}, ${2:size_t size});
+${3:/*Allocate memory on the device.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMalloc</tabTrigger> 

@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-nanf(${1:const char* tagp})
-/*${2:Returns "Not a Number" value.}*/ 
+nanf(${1:const char* tagp});
+${2:/*Returns "Not a Number" value.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>nanf</tabTrigger> 

@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-erfcinvf(${1:float  y})
-/*${2:Calculate the inverse complementary error function of the input argument.}*/ 
+erfcinvf(${1:float  y});
+${2:/*Calculate the inverse complementary error function of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>erfcinvf</tabTrigger> 

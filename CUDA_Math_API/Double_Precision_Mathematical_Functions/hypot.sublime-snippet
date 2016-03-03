@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-hypot(${1:double  x}, ${2:double  y})
-/*${3:Calculate the square root of the sum of squares of two arguments.}*/ 
+hypot(${1:double  x}, ${2:double  y});
+${3:/*Calculate the square root of the sum of squares of two arguments.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>hypot</tabTrigger> 

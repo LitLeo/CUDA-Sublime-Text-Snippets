@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemset3D(${1:cudaPitchedPtr pitchedDevPtr}, ${2:int  value}, ${3:cudaExtent extent})
-/*${4:Initializes or sets device memory to a value.}*/ 
+cudaMemset3D(${1:cudaPitchedPtr pitchedDevPtr}, ${2:int  value}, ${3:cudaExtent extent});
+${4:/*Initializes or sets device memory to a value.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemset3D</tabTrigger> 

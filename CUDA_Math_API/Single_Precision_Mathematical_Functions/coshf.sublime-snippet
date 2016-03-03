@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-coshf(${1:float  x})
-/*${2:Calculate the hyperbolic cosine of the input argument.}*/ 
+coshf(${1:float  x});
+${2:/*Calculate the hyperbolic cosine of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>coshf</tabTrigger> 

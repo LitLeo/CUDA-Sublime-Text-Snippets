@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-remainder(${1:double  x}, ${2:double  y})
-/*${3:Compute double-precision floating-point remainder.}*/ 
+remainder(${1:double  x}, ${2:double  y});
+${3:/*Compute double-precision floating-point remainder.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>remainder</tabTrigger> 

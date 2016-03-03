@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-rnormf(${1:int  dim}, ${2:const float* a})
-/*${3:Calculate the reciprocal of square root of the sum of squares of any number of coordinates.}*/ 
+rnormf(${1:int  dim}, ${2:const float* a});
+${3:/*Calculate the reciprocal of square root of the sum of squares of any number of coordinates.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>rnormf</tabTrigger> 

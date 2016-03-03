@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaEventRecord(${1:cudaEvent_t event}, ${2:cudaStream_t stream = 0})
-/*${3:Records an event.}*/ 
+cudaEventRecord(${1:cudaEvent_t event}, ${2:cudaStream_t stream = 0});
+${3:/*Records an event.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaEventRecord</tabTrigger> 

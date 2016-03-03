@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemset(${1:void* devPtr}, ${2:int  value}, ${3:size_t count})
-/*${4:Initializes or sets device memory to a value.}*/ 
+cudaMemset(${1:void* devPtr}, ${2:int  value}, ${3:size_t count});
+${4:/*Initializes or sets device memory to a value.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemset</tabTrigger> 

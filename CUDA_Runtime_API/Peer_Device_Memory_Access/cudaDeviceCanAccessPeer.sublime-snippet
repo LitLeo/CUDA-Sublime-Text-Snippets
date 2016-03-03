@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceCanAccessPeer(${1:int* canAccessPeer}, ${2:int  device}, ${3:int  peerDevice})
-/*${4:Queries if a device may directly access a peer device's memory.}*/ 
+cudaDeviceCanAccessPeer(${1:int* canAccessPeer}, ${2:int  device}, ${3:int  peerDevice});
+${4:/*Queries if a device may directly access a peer device's memory.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceCanAccessPeer</tabTrigger> 

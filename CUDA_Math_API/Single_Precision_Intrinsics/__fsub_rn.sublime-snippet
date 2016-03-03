@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__fsub_rn(${1:float  x}, ${2:float  y})
-/*${3:Subtract two floating point values in round-to-nearest-even mode.}*/ 
+__fsub_rn(${1:float  x}, ${2:float  y});
+${3:/*Subtract two floating point values in round-to-nearest-even mode.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__fsub_rn</tabTrigger> 

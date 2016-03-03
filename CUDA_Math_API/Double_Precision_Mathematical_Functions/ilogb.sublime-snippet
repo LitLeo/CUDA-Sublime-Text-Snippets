@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-ilogb(${1:double  x})
-/*${2:Compute the unbiased integer exponent of the argument.}*/ 
+ilogb(${1:double  x});
+${2:/*Compute the unbiased integer exponent of the argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>ilogb</tabTrigger> 

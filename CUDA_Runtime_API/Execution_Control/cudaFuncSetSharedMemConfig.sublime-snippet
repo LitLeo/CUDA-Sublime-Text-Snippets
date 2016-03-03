@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaFuncSetSharedMemConfig(${1:const void* func}, ${2:cudaSharedMemConfig config})
-/*${3:Sets the shared memory configuration for a device function.}*/ 
+cudaFuncSetSharedMemConfig(${1:const void* func}, ${2:cudaSharedMemConfig config});
+${3:/*Sets the shared memory configuration for a device function.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaFuncSetSharedMemConfig</tabTrigger> 

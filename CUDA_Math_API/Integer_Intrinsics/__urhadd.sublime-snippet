@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__urhadd(${1:unsigned int}, ${2:unsigned int})
-/*${3:Compute rounded average of unsigned input arguments, avoiding overflow in the intermediate sum.}*/ 
+__urhadd(${1:unsigned int}, ${2:unsigned int});
+${3:/*Compute rounded average of unsigned input arguments, avoiding overflow in the intermediate sum.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__urhadd</tabTrigger> 

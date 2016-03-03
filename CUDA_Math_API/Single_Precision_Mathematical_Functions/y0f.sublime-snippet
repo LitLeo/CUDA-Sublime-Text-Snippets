@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-y0f(${1:float  x})
-/*${2:Calculate the value of the Bessel function of the second kind of order 0 for the input argument.}*/ 
+y0f(${1:float  x});
+${2:/*Calculate the value of the Bessel function of the second kind of order 0 for the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>y0f</tabTrigger> 

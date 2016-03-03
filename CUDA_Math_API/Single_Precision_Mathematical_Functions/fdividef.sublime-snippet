@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-fdividef(${1:float  x}, ${2:float  y})
-/*${3:Divide two floating point values.}*/ 
+fdividef(${1:float  x}, ${2:float  y});
+${3:/*Divide two floating point values.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>fdividef</tabTrigger> 

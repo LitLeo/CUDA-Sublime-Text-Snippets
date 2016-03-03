@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemGetInfo(${1:size_t* free}, ${2:size_t* total})
-/*${3:Gets free and total device memory.}*/ 
+cudaMemGetInfo(${1:size_t* free}, ${2:size_t* total});
+${3:/*Gets free and total device memory.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemGetInfo</tabTrigger> 

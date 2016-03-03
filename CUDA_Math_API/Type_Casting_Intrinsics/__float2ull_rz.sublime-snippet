@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__float2ull_rz(${1:float  x})
-/*${2:Convert a float to an unsigned 64-bit integer in round-towards-zero mode.}*/ 
+__float2ull_rz(${1:float  x});
+${2:/*Convert a float to an unsigned 64-bit integer in round-towards-zero mode.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__float2ull_rz</tabTrigger> 

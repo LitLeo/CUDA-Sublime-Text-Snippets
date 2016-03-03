@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__exp10f(${1:float  x})
-/*${2:Calculate the fast approximate base 10 exponential of the input argument.}*/ 
+__exp10f(${1:float  x});
+${2:/*Calculate the fast approximate base 10 exponential of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__exp10f</tabTrigger> 

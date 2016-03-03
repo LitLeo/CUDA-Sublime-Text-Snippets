@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamCreateWithPriority(${1:cudaStream_t* pStream}, ${2:unsigned int  flags}, ${3:int  priority})
-/*${4:Create an asynchronous stream with the specified priority.}*/ 
+cudaStreamCreateWithPriority(${1:cudaStream_t* pStream}, ${2:unsigned int  flags}, ${3:int  priority});
+${4:/*Create an asynchronous stream with the specified priority.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamCreateWithPriority</tabTrigger> 

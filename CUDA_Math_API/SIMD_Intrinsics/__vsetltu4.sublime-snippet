@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__vsetltu4(${1:unsigned int  a}, ${2:unsigned int  b})
-/*${3:Performs per-byte unsigned comparison.}*/ 
+__vsetltu4(${1:unsigned int  a}, ${2:unsigned int  b});
+${3:/*Performs per-byte unsigned comparison.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__vsetltu4</tabTrigger> 

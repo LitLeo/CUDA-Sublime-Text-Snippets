@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaSetDeviceFlags(${1:unsigned int  flags})
-/*${2:Sets flags to be used for device executions.}*/ 
+cudaSetDeviceFlags(${1:unsigned int  flags});
+${2:/*Sets flags to be used for device executions.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaSetDeviceFlags</tabTrigger> 

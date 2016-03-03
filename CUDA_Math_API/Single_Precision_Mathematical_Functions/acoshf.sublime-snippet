@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-acoshf(${1:float  x})
-/*${2:Calculate the nonnegative arc hyperbolic cosine of the input argument.}*/ 
+acoshf(${1:float  x});
+${2:/*Calculate the nonnegative arc hyperbolic cosine of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>acoshf</tabTrigger> 

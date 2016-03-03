@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-logb(${1:double  x})
-/*${2:Calculate the floating point representation of the exponent of the input argument.}*/ 
+logb(${1:double  x});
+${2:/*Calculate the floating point representation of the exponent of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>logb</tabTrigger> 

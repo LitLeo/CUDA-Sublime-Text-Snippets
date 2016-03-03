@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-fminf(${1:float  x}, ${2:float  y})
-/*${3:Determine the minimum numeric value of the arguments.}*/ 
+fminf(${1:float  x}, ${2:float  y});
+${3:/*Determine the minimum numeric value of the arguments.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>fminf</tabTrigger> 

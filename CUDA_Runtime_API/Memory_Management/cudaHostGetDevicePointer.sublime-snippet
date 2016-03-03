@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaHostGetDevicePointer(${1:void** pDevice}, ${2:void* pHost}, ${3:unsigned int  flags})
-/*${4:Passes back device pointer of mapped host memory allocated by cudaHostAlloc or registered by cudaHostRegister.}*/ 
+cudaHostGetDevicePointer(${1:void** pDevice}, ${2:void* pHost}, ${3:unsigned int  flags});
+${4:/*Passes back device pointer of mapped host memory allocated by cudaHostAlloc or registered by cudaHostRegister.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaHostGetDevicePointer</tabTrigger> 

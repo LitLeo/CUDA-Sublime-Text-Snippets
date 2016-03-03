@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaEventSynchronize(${1:cudaEvent_t event})
-/*${2:Waits for an event to complete.}*/ 
+cudaEventSynchronize(${1:cudaEvent_t event});
+${2:/*Waits for an event to complete.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaEventSynchronize</tabTrigger> 

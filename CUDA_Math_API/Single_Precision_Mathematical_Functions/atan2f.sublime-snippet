@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-atan2f(${1:float  y}, ${2:float  x})
-/*${3:Calculate the arc tangent of the ratio of first and second input arguments.}*/ 
+atan2f(${1:float  y}, ${2:float  x});
+${3:/*Calculate the arc tangent of the ratio of first and second input arguments.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>atan2f</tabTrigger> 

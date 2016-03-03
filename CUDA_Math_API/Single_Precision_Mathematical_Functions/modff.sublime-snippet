@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-modff(${1:float  x}, ${2:float* iptr})
-/*${3:Break down the input argument into fractional and integral parts.}*/ 
+modff(${1:float  x}, ${2:float* iptr});
+${3:/*Break down the input argument into fractional and integral parts.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>modff</tabTrigger> 

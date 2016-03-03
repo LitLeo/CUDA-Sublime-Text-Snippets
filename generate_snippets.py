@@ -84,8 +84,8 @@ for dir in dirs:
 				out_buffer.write(
 '<snippet> \n\
 	<content><![CDATA[\n' + 
-Funname + '(' + NewParams + ')\n' +
-'/*${' + str(len(Params_split)+1) + ':' + alllines[ln + 1].strip() + '}*/ \
+Funname + '(' + NewParams + ');\n' +
+'${' + str(len(Params_split)+1) + ':/*' + alllines[ln + 1].strip() + '*/} \
 \n]]></content> \n\
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> \n\
 	<tabTrigger>'+ Funname +'</tabTrigger> \n\

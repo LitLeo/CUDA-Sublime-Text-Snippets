@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-asinh(${1:double  x})
-/*${2:Calculate the arc hyperbolic sine of the input argument.}*/ 
+asinh(${1:double  x});
+${2:/*Calculate the arc hyperbolic sine of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>asinh</tabTrigger> 

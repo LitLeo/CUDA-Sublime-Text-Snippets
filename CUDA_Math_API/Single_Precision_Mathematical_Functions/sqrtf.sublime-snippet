@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-sqrtf(${1:float  x})
-/*${2:Calculate the square root of the input argument.}*/ 
+sqrtf(${1:float  x});
+${2:/*Calculate the square root of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>sqrtf</tabTrigger> 

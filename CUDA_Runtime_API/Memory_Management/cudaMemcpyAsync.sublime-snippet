@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpyAsync(${1:void* dst}, ${2:const void* src}, ${3:size_t count}, ${4:cudaMemcpyKind kind}, ${5:cudaStream_t stream = 0})
-/*${6:Copies data between host and device.}*/ 
+cudaMemcpyAsync(${1:void* dst}, ${2:const void* src}, ${3:size_t count}, ${4:cudaMemcpyKind kind}, ${5:cudaStream_t stream = 0});
+${6:/*Copies data between host and device.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpyAsync</tabTrigger> 

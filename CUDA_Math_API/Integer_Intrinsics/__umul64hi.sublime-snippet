@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-__umul64hi(${1:unsigned long long int x}, ${2:unsigned long long int y})
-/*${3:Calculate the most significant 64 bits of the product of the two 64 unsigned bit integers.}*/ 
+__umul64hi(${1:unsigned long long int x}, ${2:unsigned long long int y});
+${3:/*Calculate the most significant 64 bits of the product of the two 64 unsigned bit integers.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__umul64hi</tabTrigger> 

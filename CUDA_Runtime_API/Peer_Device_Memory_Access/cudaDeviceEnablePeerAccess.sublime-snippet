@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceEnablePeerAccess(${1:int  peerDevice}, ${2:unsigned int  flags})
-/*${3:Enables direct access to memory allocations on a peer device.}*/ 
+cudaDeviceEnablePeerAccess(${1:int  peerDevice}, ${2:unsigned int  flags});
+${3:/*Enables direct access to memory allocations on a peer device.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceEnablePeerAccess</tabTrigger> 

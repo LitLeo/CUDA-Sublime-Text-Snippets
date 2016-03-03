@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-sincosf(${1:float  x}, ${2:float* sptr}, ${3:float* cptr})
-/*${4:Calculate the sine and cosine of the first input argument.}*/ 
+sincosf(${1:float  x}, ${2:float* sptr}, ${3:float* cptr});
+${4:/*Calculate the sine and cosine of the first input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>sincosf</tabTrigger> 

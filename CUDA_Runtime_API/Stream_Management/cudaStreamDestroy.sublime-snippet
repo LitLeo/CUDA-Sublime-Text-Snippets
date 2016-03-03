@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamDestroy(${1:cudaStream_t stream})
-/*${2:Destroys and cleans up an asynchronous stream.}*/ 
+cudaStreamDestroy(${1:cudaStream_t stream});
+${2:/*Destroys and cleans up an asynchronous stream.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamDestroy</tabTrigger> 

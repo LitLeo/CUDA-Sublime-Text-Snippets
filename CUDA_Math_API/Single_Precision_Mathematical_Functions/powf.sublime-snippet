@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-powf(${1:float  x}, ${2:float  y})
-/*${3:Calculate the value of first argument to the power of second argument.}*/ 
+powf(${1:float  x}, ${2:float  y});
+${3:/*Calculate the value of first argument to the power of second argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>powf</tabTrigger> 

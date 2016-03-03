@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-trunc(${1:double  x})
-/*${2:Truncate input argument to the integral part.}*/ 
+trunc(${1:double  x});
+${2:/*Truncate input argument to the integral part.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>trunc</tabTrigger> 

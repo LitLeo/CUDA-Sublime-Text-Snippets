@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-nextafter(${1:double  x}, ${2:double  y})
-/*${3:Return next representable double-precision floating-point value after argument.}*/ 
+nextafter(${1:double  x}, ${2:double  y});
+${3:/*Return next representable double-precision floating-point value after argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>nextafter</tabTrigger> 

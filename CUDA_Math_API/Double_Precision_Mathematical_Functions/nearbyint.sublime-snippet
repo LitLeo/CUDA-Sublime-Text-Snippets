@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-nearbyint(${1:double  x})
-/*${2:Round the input argument to the nearest integer.}*/ 
+nearbyint(${1:double  x});
+${2:/*Round the input argument to the nearest integer.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>nearbyint</tabTrigger> 

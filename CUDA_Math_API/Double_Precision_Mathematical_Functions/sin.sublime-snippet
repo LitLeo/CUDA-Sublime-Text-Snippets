@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-sin(${1:double  x})
-/*${2:Calculate the sine of the input argument.}*/ 
+sin(${1:double  x});
+${2:/*Calculate the sine of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>sin</tabTrigger> 

@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-lrint(${1:double  x})
-/*${2:Round input to nearest integer value.}*/ 
+lrint(${1:double  x});
+${2:/*Round input to nearest integer value.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>lrint</tabTrigger> 

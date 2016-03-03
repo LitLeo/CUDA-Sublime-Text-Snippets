@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-tgammaf(${1:float  x})
-/*${2:Calculate the gamma function of the input argument.}*/ 
+tgammaf(${1:float  x});
+${2:/*Calculate the gamma function of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>tgammaf</tabTrigger> 

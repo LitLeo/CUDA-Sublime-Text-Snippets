@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetSymbolAddress(${1:void** devPtr}, ${2:const void* symbol})
-/*${3:Finds the address associated with a CUDA symbol.}*/ 
+cudaGetSymbolAddress(${1:void** devPtr}, ${2:const void* symbol});
+${3:/*Finds the address associated with a CUDA symbol.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetSymbolAddress</tabTrigger> 

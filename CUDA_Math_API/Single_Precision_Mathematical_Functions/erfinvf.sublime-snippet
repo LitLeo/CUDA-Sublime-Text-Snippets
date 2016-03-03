@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-erfinvf(${1:float  y})
-/*${2:Calculate the inverse error function of the input argument.}*/ 
+erfinvf(${1:float  y});
+${2:/*Calculate the inverse error function of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>erfinvf</tabTrigger> 

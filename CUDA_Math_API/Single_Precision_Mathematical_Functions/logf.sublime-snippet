@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-logf(${1:float  x})
-/*${2:Calculate the natural logarithm of the input argument.}*/ 
+logf(${1:float  x});
+${2:/*Calculate the natural logarithm of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>logf</tabTrigger> 

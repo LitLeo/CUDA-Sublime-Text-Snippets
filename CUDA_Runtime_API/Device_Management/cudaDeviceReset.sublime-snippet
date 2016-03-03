@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceReset(${1:void})
-/*${2:Destroy all allocations and reset all state on the current device in the current process.}*/ 
+cudaDeviceReset(${1:void});
+${2:/*Destroy all allocations and reset all state on the current device in the current process.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceReset</tabTrigger> 

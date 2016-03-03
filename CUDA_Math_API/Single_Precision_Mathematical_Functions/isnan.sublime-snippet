@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-isnan(${1:float  a})
-/*${2:Determine whether argument is a NaN.}*/ 
+isnan(${1:float  a});
+${2:/*Determine whether argument is a NaN.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>isnan</tabTrigger> 

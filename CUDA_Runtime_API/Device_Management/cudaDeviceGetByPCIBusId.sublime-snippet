@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceGetByPCIBusId(${1:int* device}, ${2:const char* pciBusId})
-/*${3:Returns a handle to a compute device.}*/ 
+cudaDeviceGetByPCIBusId(${1:int* device}, ${2:const char* pciBusId});
+${3:/*Returns a handle to a compute device.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceGetByPCIBusId</tabTrigger> 

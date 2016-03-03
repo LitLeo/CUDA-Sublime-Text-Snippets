@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-rint(${1:double  x})
-/*${2:Round to nearest integer value in floating-point.}*/ 
+rint(${1:double  x});
+${2:/*Round to nearest integer value in floating-point.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>rint</tabTrigger> 

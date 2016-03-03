@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-rsqrt(${1:double  x})
-/*${2:Calculate the reciprocal of the square root of the input argument.}*/ 
+rsqrt(${1:double  x});
+${2:/*Calculate the reciprocal of the square root of the input argument.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>rsqrt</tabTrigger> 

@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-expm1(${1:double  x})
-/*${2:Calculate the base e exponential of the input argument, minus 1.}*/ 
+expm1(${1:double  x});
+${2:/*Calculate the base e exponential of the input argument, minus 1.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>expm1</tabTrigger> 

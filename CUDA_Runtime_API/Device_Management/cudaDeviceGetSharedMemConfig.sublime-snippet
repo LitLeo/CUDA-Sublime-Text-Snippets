@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceGetSharedMemConfig(${1:cudaSharedMemConfig ** pConfig})
-/*${2:Returns the shared memory configuration for the current device.}*/ 
+cudaDeviceGetSharedMemConfig(${1:cudaSharedMemConfig ** pConfig});
+${2:/*Returns the shared memory configuration for the current device.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceGetSharedMemConfig</tabTrigger> 

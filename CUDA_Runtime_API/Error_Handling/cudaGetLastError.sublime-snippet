@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetLastError(${1:void})
-/*${2:Returns the last error from a runtime call.}*/ 
+cudaGetLastError(${1:void});
+${2:/*Returns the last error from a runtime call.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetLastError</tabTrigger> 

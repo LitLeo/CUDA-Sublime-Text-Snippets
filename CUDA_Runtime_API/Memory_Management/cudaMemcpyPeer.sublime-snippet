@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpyPeer(${1:void* dst}, ${2:int  dstDevice}, ${3:const void* src}, ${4:int  srcDevice}, ${5:size_t count})
-/*${6:Copies memory between two devices.}*/ 
+cudaMemcpyPeer(${1:void* dst}, ${2:int  dstDevice}, ${3:const void* src}, ${4:int  srcDevice}, ${5:size_t count});
+${6:/*Copies memory between two devices.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpyPeer</tabTrigger> 

@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaEventCreateWithFlags(${1:cudaEvent_t* event}, ${2:unsigned int  flags})
-/*${3:Creates an event object with the specified flags.}*/ 
+cudaEventCreateWithFlags(${1:cudaEvent_t* event}, ${2:unsigned int  flags});
+${3:/*Creates an event object with the specified flags.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaEventCreateWithFlags</tabTrigger> 

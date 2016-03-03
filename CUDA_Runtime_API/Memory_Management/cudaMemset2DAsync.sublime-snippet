@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemset2DAsync(${1:void* devPtr}, ${2:size_t pitch}, ${3:int  value}, ${4:size_t width}, ${5:size_t height}, ${6:cudaStream_t stream = 0})
-/*${7:Initializes or sets device memory to a value.}*/ 
+cudaMemset2DAsync(${1:void* devPtr}, ${2:size_t pitch}, ${3:int  value}, ${4:size_t width}, ${5:size_t height}, ${6:cudaStream_t stream = 0});
+${7:/*Initializes or sets device memory to a value.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemset2DAsync</tabTrigger> 

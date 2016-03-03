@@ -1,7 +1,7 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetMipmappedArrayLevel(${1:cudaArray_t* levelArray}, ${2:cudaMipmappedArray_const_t mipmappedArray}, ${3:unsigned int  level})
-/*${4:Gets a mipmap level of a CUDA mipmapped array.}*/ 
+cudaGetMipmappedArrayLevel(${1:cudaArray_t* levelArray}, ${2:cudaMipmappedArray_const_t mipmappedArray}, ${3:unsigned int  level});
+${4:/*Gets a mipmap level of a CUDA mipmapped array.*/} 
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetMipmappedArrayLevel</tabTrigger> 
