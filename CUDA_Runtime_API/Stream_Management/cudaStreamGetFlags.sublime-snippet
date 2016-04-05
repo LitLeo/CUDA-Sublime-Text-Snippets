@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamGetFlags(${1:cudaStream_t hStream}, ${2:unsigned int* flags});
-${3:/*Query the flags of a stream.*/} 
+cudaStreamGetFlags(${1:cudaStream_t hStream}, ${2:unsigned int* flags})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamGetFlags</tabTrigger> 

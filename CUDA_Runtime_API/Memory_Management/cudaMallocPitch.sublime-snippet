@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaMallocPitch(${1:void** devPtr}, ${2:size_t* pitch}, ${3:size_t width}, ${4:size_t height});
-${5:/*Allocates pitched memory on the device.*/} 
+cudaMallocPitch(${1:void** devPtr}, ${2:size_t* pitch}, ${3:size_t width}, ${4:size_t height})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMallocPitch</tabTrigger> 

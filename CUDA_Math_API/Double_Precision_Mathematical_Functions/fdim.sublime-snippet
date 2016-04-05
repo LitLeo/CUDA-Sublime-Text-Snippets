@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-fdim(${1:double  x}, ${2:double  y});
-${3:/*Compute the positive difference between x and y.*/} 
+fdim(${1:double  x}, ${2:double  y})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>fdim</tabTrigger> 

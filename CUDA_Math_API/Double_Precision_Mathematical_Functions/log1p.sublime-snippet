@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-log1p(${1:double  x});
-${2:/*Calculate the value of l o g e ( 1 + x ) .*/} 
+log1p(${1:double  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>log1p</tabTrigger> 

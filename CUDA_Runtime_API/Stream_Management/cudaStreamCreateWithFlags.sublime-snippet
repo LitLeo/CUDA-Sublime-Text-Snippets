@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamCreateWithFlags(${1:cudaStream_t* pStream}, ${2:unsigned int  flags});
-${3:/*Create an asynchronous stream.*/} 
+cudaStreamCreateWithFlags(${1:cudaStream_t* pStream}, ${2:unsigned int  flags})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamCreateWithFlags</tabTrigger> 

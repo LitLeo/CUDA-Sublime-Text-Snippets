@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaMallocHost(${1:void** ptr}, ${2:size_t size});
-${3:/*Allocates page-locked memory on the host.*/} 
+cudaMallocHost(${1:void** ptr}, ${2:size_t size})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMallocHost</tabTrigger> 

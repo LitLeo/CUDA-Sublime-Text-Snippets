@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-copysign(${1:double  x}, ${2:double  y});
-${3:/*Create value with given magnitude, copying sign of second value.*/} 
+copysign(${1:double  x}, ${2:double  y})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>copysign</tabTrigger> 

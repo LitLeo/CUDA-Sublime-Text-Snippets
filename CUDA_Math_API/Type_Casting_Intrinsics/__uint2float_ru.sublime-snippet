@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__uint2float_ru(${1:unsigned int  x});
-${2:/*Convert an unsigned integer to a float in round-up mode.*/} 
+__uint2float_ru(${1:unsigned int  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__uint2float_ru</tabTrigger> 

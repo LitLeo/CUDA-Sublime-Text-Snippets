@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-isfinite(${1:double  a});
-${2:/*Determine whether argument is finite.*/} 
+isfinite(${1:double  a})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>isfinite</tabTrigger> 

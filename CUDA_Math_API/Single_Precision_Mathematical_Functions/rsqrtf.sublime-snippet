@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-rsqrtf(${1:float  x});
-${2:/*Calculate the reciprocal of the square root of the input argument.*/} 
+rsqrtf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>rsqrtf</tabTrigger> 

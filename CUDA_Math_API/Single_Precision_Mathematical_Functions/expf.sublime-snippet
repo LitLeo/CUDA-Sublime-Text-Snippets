@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-expf(${1:float  x});
-${2:/*Calculate the base e exponential of the input argument.*/} 
+expf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>expf</tabTrigger> 

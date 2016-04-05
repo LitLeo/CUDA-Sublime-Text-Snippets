@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-erfcxf(${1:float  x});
-${2:/*Calculate the scaled complementary error function of the input argument.*/} 
+erfcxf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>erfcxf</tabTrigger> 

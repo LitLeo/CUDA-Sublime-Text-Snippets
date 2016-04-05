@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaChooseDevice(${1:int* device}, ${2:const cudaDeviceProp* prop});
-${3:/*Select compute-device which best matches criteria.*/} 
+cudaChooseDevice(${1:int* device}, ${2:const cudaDeviceProp* prop})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaChooseDevice</tabTrigger> 

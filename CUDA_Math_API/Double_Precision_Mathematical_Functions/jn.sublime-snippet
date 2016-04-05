@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-jn(${1:int  n}, ${2:double  x});
-${3:/*Calculate the value of the Bessel function of the first kind of order n for the input argument.*/} 
+jn(${1:int  n}, ${2:double  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>jn</tabTrigger> 

@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpyFromSymbol(${1:void* dst}, ${2:const void* symbol}, ${3:size_t count}, ${4:size_t offset = 0}, ${5:cudaMemcpyKind kind = cudaMemcpyDeviceToHost});
-${6:/*Copies data from the given symbol on the device.*/} 
+cudaMemcpyFromSymbol(${1:void* dst}, ${2:const void* symbol}, ${3:size_t count}, ${4:size_t offset = 0}, ${5:cudaMemcpyKind kind = cudaMemcpyDeviceToHost})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpyFromSymbol</tabTrigger> 

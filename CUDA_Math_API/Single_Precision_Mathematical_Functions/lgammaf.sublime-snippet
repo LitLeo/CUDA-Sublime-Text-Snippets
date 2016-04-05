@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-lgammaf(${1:float  x});
-${2:/*Calculate the natural logarithm of the absolute value of the gamma function of the input argument.*/} 
+lgammaf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>lgammaf</tabTrigger> 

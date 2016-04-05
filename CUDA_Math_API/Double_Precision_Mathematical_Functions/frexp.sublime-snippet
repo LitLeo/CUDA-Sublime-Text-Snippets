@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-frexp(${1:double  x}, ${2:int* nptr});
-${3:/*Extract mantissa and exponent of a floating-point value.*/} 
+frexp(${1:double  x}, ${2:int* nptr})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>frexp</tabTrigger> 

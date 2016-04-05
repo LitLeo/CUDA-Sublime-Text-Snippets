@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-norm(${1:int  dim}, ${2:const double* t});
-${3:/*Calculate the square root of the sum of squares of any number of coordinates.*/} 
+norm(${1:int  dim}, ${2:const double* t})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>norm</tabTrigger> 

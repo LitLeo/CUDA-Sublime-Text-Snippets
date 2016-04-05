@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-fabs(${1:double  x});
-${2:/*Calculate the absolute value of the input argument.*/} 
+fabs(${1:double  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>fabs</tabTrigger> 

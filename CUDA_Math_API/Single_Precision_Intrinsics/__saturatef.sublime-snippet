@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__saturatef(${1:float  x});
-${2:/*Clamp the input argument to [+0.0, 1.0].*/} 
+__saturatef(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__saturatef</tabTrigger> 

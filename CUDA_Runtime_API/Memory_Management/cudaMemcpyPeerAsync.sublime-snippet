@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpyPeerAsync(${1:void* dst}, ${2:int  dstDevice}, ${3:const void* src}, ${4:int  srcDevice}, ${5:size_t count}, ${6:cudaStream_t stream = 0});
-${7:/*Copies memory between two devices asynchronously.*/} 
+cudaMemcpyPeerAsync(${1:void* dst}, ${2:int  dstDevice}, ${3:const void* src}, ${4:int  srcDevice}, ${5:size_t count}, ${6:cudaStream_t stream = 0})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpyPeerAsync</tabTrigger> 

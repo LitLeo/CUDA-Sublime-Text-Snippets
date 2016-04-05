@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaSetDoubleForDevice(${1:double* d});
-${2:/*Converts a double argument to be executed on a device.*/} 
+cudaSetDoubleForDevice(${1:double* d})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaSetDoubleForDevice</tabTrigger> 

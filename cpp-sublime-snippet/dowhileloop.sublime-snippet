@@ -1,0 +1,10 @@
+<snippet>
+	<description>Do While Loop</description>
+	<content><![CDATA[
+do {
+	${0:/* code */}
+} while (${1:/* condition */});
+]]></content>
+	<tabTrigger>do_</tabTrigger>
+	<scope>source.c, source.objc, source.c++, source.objc++, source.cuda-c++</scope>
+</snippet>

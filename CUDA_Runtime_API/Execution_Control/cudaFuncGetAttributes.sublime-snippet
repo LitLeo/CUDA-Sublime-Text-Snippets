@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaFuncGetAttributes(${1:cudaFuncAttributes* attr}, ${2:const void* func});
-${3:/*Find out attributes for a given function.*/} 
+cudaFuncGetAttributes(${1:cudaFuncAttributes* attr}, ${2:const void* func})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaFuncGetAttributes</tabTrigger> 

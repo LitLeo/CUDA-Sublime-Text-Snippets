@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-fma(${1:double  x}, ${2:double  y}, ${3:double  z});
-${4:/*Compute x × y + z as a single operation.*/} 
+fma(${1:double  x}, ${2:double  y}, ${3:double  z})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>fma</tabTrigger> 

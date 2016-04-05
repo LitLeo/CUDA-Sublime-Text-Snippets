@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-scalbn(${1:double  x}, ${2:int  n});
-${3:/*Scale floating-point input by integer power of two.*/} 
+scalbn(${1:double  x}, ${2:int  n})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>scalbn</tabTrigger> 

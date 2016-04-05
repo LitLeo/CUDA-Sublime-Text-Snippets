@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-rcbrtf(${1:float  x});
-${2:/*Calculate reciprocal cube root function.*/} 
+rcbrtf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>rcbrtf</tabTrigger> 

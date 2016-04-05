@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__double2hiint(${1:double  x});
-${2:/*Reinterpret high 32 bits in a double as a signed integer.*/} 
+__double2hiint(${1:double  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__double2hiint</tabTrigger> 

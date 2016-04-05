@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-pow(${1:double  x}, ${2:double  y});
-${3:/*Calculate the value of first argument to the power of second argument.*/} 
+pow(${1:double  x}, ${2:double  y})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>pow</tabTrigger> 

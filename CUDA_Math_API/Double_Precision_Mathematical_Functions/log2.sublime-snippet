@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-log2(${1:double  x});
-${2:/*Calculate the base 2 logarithm of the input argument.*/} 
+log2(${1:double  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>log2</tabTrigger> 

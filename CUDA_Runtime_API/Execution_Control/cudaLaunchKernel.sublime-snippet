@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaLaunchKernel(${1:const void* func}, ${2:dim3 gridDim}, ${3:dim3 blockDim}, ${4:void** args}, ${5:size_t sharedMem}, ${6:cudaStream_t stream});
-${7:/*Launches a device function.*/} 
+cudaLaunchKernel(${1:const void* func}, ${2:dim3 gridDim}, ${3:dim3 blockDim}, ${4:void** args}, ${5:size_t sharedMem}, ${6:cudaStream_t stream})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaLaunchKernel</tabTrigger> 

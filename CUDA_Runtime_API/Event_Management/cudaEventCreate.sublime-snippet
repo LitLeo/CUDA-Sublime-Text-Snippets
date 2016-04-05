@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaEventCreate(${1:cudaEvent_t* event});
-${2:/*Creates an event object.*/} 
+cudaEventCreate(${1:cudaEvent_t* event})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaEventCreate</tabTrigger> 

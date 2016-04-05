@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__drcp_ru(${1:double  x});
-${2:/*Compute 1 x in round-up mode.*/} 
+__drcp_ru(${1:double  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__drcp_ru</tabTrigger> 

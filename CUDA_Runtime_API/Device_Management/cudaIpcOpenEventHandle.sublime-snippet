@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaIpcOpenEventHandle(${1:cudaEvent_t* event}, ${2:cudaIpcEventHandle_t handle});
-${3:/*Opens an interprocess event handle for use in the current process.*/} 
+cudaIpcOpenEventHandle(${1:cudaEvent_t* event}, ${2:cudaIpcEventHandle_t handle})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaIpcOpenEventHandle</tabTrigger> 

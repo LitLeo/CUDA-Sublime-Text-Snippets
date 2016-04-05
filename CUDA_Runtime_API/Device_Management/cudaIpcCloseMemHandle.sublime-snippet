@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaIpcCloseMemHandle(${1:void* devPtr});
-${2:/*Close memory mapped with cudaIpcOpenMemHandle.*/} 
+cudaIpcCloseMemHandle(${1:void* devPtr})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaIpcCloseMemHandle</tabTrigger> 

@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-floorf(${1:float  x});
-${2:/*Calculate the largest integer less than or equal to x.*/} 
+floorf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>floorf</tabTrigger> 

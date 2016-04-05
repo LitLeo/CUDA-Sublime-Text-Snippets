@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetDeviceFlags(${1:unsigned int* flags});
-${2:/*Gets the flags for the current device.*/} 
+cudaGetDeviceFlags(${1:unsigned int* flags})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetDeviceFlags</tabTrigger> 

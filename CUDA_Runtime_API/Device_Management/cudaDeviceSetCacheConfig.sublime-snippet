@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceSetCacheConfig(${1:cudaFuncCache cacheConfig});
-${2:/*Sets the preferred cache configuration for the current device.*/} 
+cudaDeviceSetCacheConfig(${1:cudaFuncCache cacheConfig})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceSetCacheConfig</tabTrigger> 

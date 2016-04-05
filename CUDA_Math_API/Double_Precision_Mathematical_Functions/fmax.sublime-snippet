@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-fmax(${1:double }, ${2:double});
-${3:/*Determine the maximum numeric value of the arguments.*/} 
+fmax(${1:double }, ${2:double})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>fmax</tabTrigger> 

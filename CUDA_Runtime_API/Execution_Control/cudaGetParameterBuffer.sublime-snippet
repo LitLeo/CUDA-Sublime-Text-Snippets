@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetParameterBuffer(${1:size_t alignment}, ${2:size_t size});
-${3:/*Obtains a parameter buffer.*/} 
+cudaGetParameterBuffer(${1:size_t alignment}, ${2:size_t size})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetParameterBuffer</tabTrigger> 

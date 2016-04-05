@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaGetErrorName(${1:cudaError_t error});
-${2:/*Returns the string representation of an error code enum name.*/} 
+cudaGetErrorName(${1:cudaError_t error})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaGetErrorName</tabTrigger> 

@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaHostGetFlags(${1:unsigned int* pFlags}, ${2:void* pHost});
-${3:/*Passes back flags used to allocate pinned host memory allocated by cudaHostAlloc.*/} 
+cudaHostGetFlags(${1:unsigned int* pFlags}, ${2:void* pHost})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaHostGetFlags</tabTrigger> 

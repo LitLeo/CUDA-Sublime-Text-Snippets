@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-tanhf(${1:float  x});
-${2:/*Calculate the hyperbolic tangent of the input argument.*/} 
+tanhf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>tanhf</tabTrigger> 

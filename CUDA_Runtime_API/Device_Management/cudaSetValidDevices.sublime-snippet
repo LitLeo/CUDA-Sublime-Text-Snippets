@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaSetValidDevices(${1:int* device_arr}, ${2:int  len});
-${3:/*Set a list of devices that can be used for CUDA.*/} 
+cudaSetValidDevices(${1:int* device_arr}, ${2:int  len})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaSetValidDevices</tabTrigger> 

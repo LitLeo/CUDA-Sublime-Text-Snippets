@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-acosh(${1:double  x});
-${2:/*Calculate the nonnegative arc hyperbolic cosine of the input argument.*/} 
+acosh(${1:double  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>acosh</tabTrigger> 

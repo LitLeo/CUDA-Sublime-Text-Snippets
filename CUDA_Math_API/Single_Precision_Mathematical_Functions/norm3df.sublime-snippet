@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-norm3df(${1:float  a}, ${2:float  b}, ${3:float  c});
-${4:/*Calculate the square root of the sum of squares of three coordinates of the argument.*/} 
+norm3df(${1:float  a}, ${2:float  b}, ${3:float  c})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>norm3df</tabTrigger> 

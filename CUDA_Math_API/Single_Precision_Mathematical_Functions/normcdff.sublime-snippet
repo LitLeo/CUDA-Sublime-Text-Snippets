@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-normcdff(${1:float  y});
-${2:/*Calculate the standard normal cumulative distribution function.*/} 
+normcdff(${1:float  y})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>normcdff</tabTrigger> 

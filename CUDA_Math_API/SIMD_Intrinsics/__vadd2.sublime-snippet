@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__vadd2(${1:unsigned int  a}, ${2:unsigned int  b});
-${3:/*Performs per-halfword (un)signed addition, with wrap-around: a + b.*/} 
+__vadd2(${1:unsigned int  a}, ${2:unsigned int  b})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__vadd2</tabTrigger> 

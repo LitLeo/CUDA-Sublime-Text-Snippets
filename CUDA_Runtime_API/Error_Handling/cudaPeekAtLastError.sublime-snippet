@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaPeekAtLastError(${1:void});
-${2:/*Returns the last error from a runtime call.*/} 
+cudaPeekAtLastError(${1:void})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaPeekAtLastError</tabTrigger> 

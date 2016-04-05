@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-signbit(${1:double  a});
-${2:/*Return the sign bit of the input.*/} 
+signbit(${1:double  a})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>signbit</tabTrigger> 

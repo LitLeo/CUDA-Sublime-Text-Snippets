@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__rhadd(${1:int }, ${2:int});
-${3:/*Compute rounded average of signed input arguments, avoiding overflow in the intermediate sum.*/} 
+__rhadd(${1:int }, ${2:int})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__rhadd</tabTrigger> 

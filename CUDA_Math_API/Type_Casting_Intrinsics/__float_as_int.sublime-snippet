@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__float_as_int(${1:float  x});
-${2:/*Reinterpret bits in a float as a signed integer.*/} 
+__float_as_int(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__float_as_int</tabTrigger> 

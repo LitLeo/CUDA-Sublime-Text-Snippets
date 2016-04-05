@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-rintf(${1:float  x});
-${2:/*Round input to nearest integer value in floating-point.*/} 
+rintf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>rintf</tabTrigger> 

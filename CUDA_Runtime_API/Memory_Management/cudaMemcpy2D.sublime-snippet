@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpy2D(${1:void* dst}, ${2:size_t dpitch}, ${3:const void* src}, ${4:size_t spitch}, ${5:size_t width}, ${6:size_t height}, ${7:cudaMemcpyKind kind});
-${8:/*Copies data between host and device.*/} 
+cudaMemcpy2D(${1:void* dst}, ${2:size_t dpitch}, ${3:const void* src}, ${4:size_t spitch}, ${5:size_t width}, ${6:size_t height}, ${7:cudaMemcpyKind kind})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpy2D</tabTrigger> 

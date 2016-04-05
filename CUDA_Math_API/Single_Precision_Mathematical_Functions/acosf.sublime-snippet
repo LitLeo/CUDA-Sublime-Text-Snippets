@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-acosf(${1:float  x});
-${2:/*Calculate the arc cosine of the input argument.*/} 
+acosf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>acosf</tabTrigger> 

@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__vsubus2(${1:unsigned int  a}, ${2:unsigned int  b});
-${3:/*Performs per-halfword substraction with unsigned saturation.*/} 
+__vsubus2(${1:unsigned int  a}, ${2:unsigned int  b})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__vsubus2</tabTrigger> 

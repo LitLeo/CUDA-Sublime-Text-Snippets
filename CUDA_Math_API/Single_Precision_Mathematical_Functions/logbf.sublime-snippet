@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-logbf(${1:float  x});
-${2:/*Calculate the floating point representation of the exponent of the input argument.*/} 
+logbf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>logbf</tabTrigger> 

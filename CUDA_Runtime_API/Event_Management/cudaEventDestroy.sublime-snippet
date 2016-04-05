@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaEventDestroy(${1:cudaEvent_t event});
-${2:/*Destroys an event object.*/} 
+cudaEventDestroy(${1:cudaEvent_t event})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaEventDestroy</tabTrigger> 

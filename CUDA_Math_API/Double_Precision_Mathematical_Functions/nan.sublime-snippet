@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-nan(${1:const char* tagp});
-${2:/*Returns "Not a Number" value.*/} 
+nan(${1:const char* tagp})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>nan</tabTrigger> 

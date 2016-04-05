@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-normcdfinv(${1:double  y});
-${2:/*Calculate the inverse of the standard normal cumulative distribution function.*/} 
+normcdfinv(${1:double  y})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>normcdfinv</tabTrigger> 

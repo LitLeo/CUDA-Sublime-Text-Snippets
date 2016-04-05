@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-__popcll(${1:unsigned long long int x});
-${2:/*Count the number of bits that are set to 1 in a 64 bit integer.*/} 
+__popcll(${1:unsigned long long int x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>__popcll</tabTrigger> 

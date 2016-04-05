@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-llrintf(${1:float  x});
-${2:/*Round input to nearest integer value.*/} 
+llrintf(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>llrintf</tabTrigger> 

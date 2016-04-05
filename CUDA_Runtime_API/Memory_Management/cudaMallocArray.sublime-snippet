@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaMallocArray(${1:cudaArray_t* array}, ${2:const cudaChannelFormatDesc* desc}, ${3:size_t width}, ${4:size_t height = 0}, ${5:unsigned int  flags = 0});
-${6:/*Allocate an array on the device.*/} 
+cudaMallocArray(${1:cudaArray_t* array}, ${2:const cudaChannelFormatDesc* desc}, ${3:size_t width}, ${4:size_t height = 0}, ${5:unsigned int  flags = 0})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMallocArray</tabTrigger> 

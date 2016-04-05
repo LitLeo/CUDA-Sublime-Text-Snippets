@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-sinpif(${1:float  x});
-${2:/*Calculate the sine of the input argument × π .*/} 
+sinpif(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>sinpif</tabTrigger> 

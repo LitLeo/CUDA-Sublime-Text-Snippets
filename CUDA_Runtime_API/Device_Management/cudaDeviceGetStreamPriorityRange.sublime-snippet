@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceGetStreamPriorityRange(${1:int* leastPriority}, ${2:int* greatestPriority});
-${3:/*Returns numerical values that correspond to the least and greatest stream priorities.*/} 
+cudaDeviceGetStreamPriorityRange(${1:int* leastPriority}, ${2:int* greatestPriority})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceGetStreamPriorityRange</tabTrigger> 

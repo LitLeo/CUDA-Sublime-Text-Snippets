@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaDeviceGetLimit(${1:size_t* pValue}, ${2:cudaLimit limit});
-${3:/*Returns resource limits.*/} 
+cudaDeviceGetLimit(${1:size_t* pValue}, ${2:cudaLimit limit})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaDeviceGetLimit</tabTrigger> 

@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-round(${1:double  x});
-${2:/*Round to nearest integer value in floating-point.*/} 
+round(${1:double  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>round</tabTrigger> 

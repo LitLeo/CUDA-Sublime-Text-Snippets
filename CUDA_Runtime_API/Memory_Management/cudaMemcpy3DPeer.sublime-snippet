@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaMemcpy3DPeer(${1:const cudaMemcpy3DPeerParms* p});
-${2:/*Copies memory between devices.*/} 
+cudaMemcpy3DPeer(${1:const cudaMemcpy3DPeerParms* p})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaMemcpy3DPeer</tabTrigger> 

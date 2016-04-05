@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cospif(${1:float  x});
-${2:/*Calculate the cosine of the input argument × π .*/} 
+cospif(${1:float  x})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cospif</tabTrigger> 

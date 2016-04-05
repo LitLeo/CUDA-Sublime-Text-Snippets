@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaStreamSynchronize(${1:cudaStream_t stream});
-${2:/*Waits for stream tasks to complete.*/} 
+cudaStreamSynchronize(${1:cudaStream_t stream})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaStreamSynchronize</tabTrigger> 

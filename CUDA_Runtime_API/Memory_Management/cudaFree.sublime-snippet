@@ -1,7 +1,6 @@
 <snippet> 
 	<content><![CDATA[
-cudaFree(${1:void* devPtr});
-${2:/*Frees memory on the device.*/} 
+cudaFree(${1:void* devPtr})
 ]]></content> 
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet --> 
 	<tabTrigger>cudaFree</tabTrigger> 
