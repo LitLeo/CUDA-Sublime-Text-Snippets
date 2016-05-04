@@ -4,7 +4,21 @@
 
 Thanks for downloading this package!
 
-Changes from v1.0.0 to v1.1.0 include:
+Changes from v1.1.1 to v1.2.0 include:
+
+New Snippets:
+Add keywords snippets, such as 
+-------------------------
+__global__
+__host__
+__forceinline__
+__managesharedd__
+dim3
+char2
+char4
+......
+-------------------------
+
 
 Problem:
 
@@ -13,16 +27,6 @@ https://forum.sublimetext.com/t/how-to-enable-c-sublime-package-in-cuda-files-cu
 
 The Temporary Solution:
 Add several frequently-used c++ snippets.
-
-Changed Snippets:
-Remove function note and semicolon(;) of all snippets.
-
-Before:
-cudaFree(void* devPtr);
-/*Frees memory on the device.*/ 
-
-Now
-cudaFree(void* devPtr)
 
 As always, reference can be found here:
 https://github.com/LitLeo/CUDA-Sublime-Text-Snippets/blob/master/README.md
