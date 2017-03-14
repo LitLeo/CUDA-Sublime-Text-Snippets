@@ -1,0 +1,27 @@
+====================
+     Changelog
+====================
+
+Thanks for downloading this package!
+
+Changes from v1.2.0 to v1.2.1 include:
+
+New Snippets:
+Add keywords snippets, such as 
+-------------------------
+__syncthreads
+cudaMemcpyDeviceToHost
+cudaMemcpyHostToDevice
+-------------------------
+
+
+Problem:
+
+CUDA code is almost the same as C++ code, but I cann't use c++ packages, such as C++ sinppets, in CUDA C++ files.
+https://forum.sublimetext.com/t/how-to-enable-c-sublime-package-in-cuda-files-cu-cuh/19014
+
+The Temporary Solution:
+Add several frequently-used c++ snippets.
+
+As always, reference can be found here:
+https://github.com/LitLeo/CUDA-Sublime-Text-Snippets/blob/master/README.md
