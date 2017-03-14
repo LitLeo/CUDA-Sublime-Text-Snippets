@@ -53,7 +53,7 @@ cudaFree(void* devPtr)
 
 New Snippets:
 Add keywords snippets, such as 
--------------------------
+
 __global__
 __host__
 __forceinline__
@@ -62,6 +62,6 @@ dim3
 char2
 char4
 ......
--------------------------
+
 
 Thanks
